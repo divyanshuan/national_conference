@@ -1,0 +1,134 @@
+.main_content{
+    border: 1px solid;
+    height: 80vh;
+    width: 100%;
+    background-image: url(../assets/nature\ background\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    box-shadow: 5px 5px 5px #000 ;
+}
+.main_content .heading{
+    width: 80%;
+    margin: 100px auto 20px;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-family: 'Merriweather', serif;
+}
+.main_content .theme{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 700;
+}
+.main_content .date{
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-size: 18px;
+}
+.main_content .venue{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 500;
+
+}
+.main_content .format{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px){
+    /* for mobiles */
+    .main_content{
+        border: 0.5px solid;
+        height: 60vh;
+        width: 100%;
+        background-image: url(../assets/nature\ background\ .jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        box-shadow: 2px 2px 2px #000 ;
+    }
+    .main_content .heading{
+        width: 80%;
+        margin: 100px auto 20px;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-family: 'Merriweather', serif;
+        font-weight: 800;
+    }
+    .main_content .theme{
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px 20px;
+        font-weight: 550;
+    }
+    .main_content .date{
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-size: 15px;
+    }
+    .main_content .venue{
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 450;
+    
+    }
+    .main_content .format{
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+/* ipad devices  */
+@media only screen and  (min-device-width: 768px) and (max-device-width: 1024px){
+    .main_content{
+        border: 0.5px solid;
+        height: 45vh;
+        width: 100%;
+        background-image: url(../assets/nature\ background\ .jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        box-shadow: 2px 2px 2px #000 ;
+    }
+    .main_content .heading{
+        width: 80%;
+        margin: 120px auto 20px;
+        font-size: 35px;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-family: 'Merriweather', serif;
+        font-weight: 800;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .head_video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;  
+} */
