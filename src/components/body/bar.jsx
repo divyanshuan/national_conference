@@ -1,10 +1,7 @@
 import React from "react";
 import "../../styles/bar.css";
 import { Autoplay } from "swiper";
-import {
-  Swiper,
-  SwiperSlide,
-} from "../../../node_modules/swiper/react/swiper-react.js";
+import { Swiper, SwiperSlide } from "swiper/react";
 // Swiper styles
 import "../../../node_modules/swiper/swiper-bundle.css";
 import "../../../node_modules/swiper/swiper.min.css";
@@ -29,7 +26,10 @@ function Bar() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <p className="quote">Slide 1 ihioh;obluginugfioefniubfbigiedhfbiuefbiwujksbdiugfibakfnuygfaiurfukvfaudkvwydvfadvguyyvfsad</p>
+            <p className="quote">
+              Slide 1
+              ihioh;obluginugfioefniubfbigiedhfbiuefbiwujksbdiugfibakfnuygfaiurfukvfaudkvwydvfadvguyyvfsad
+            </p>
           </SwiperSlide>
           <SwiperSlide>
             <p className="quote">Slide 2</p>

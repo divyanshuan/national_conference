@@ -39,11 +39,12 @@
     font-weight: bold;
     font-size: 16px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and  (min-device-width: 0px) and (max-device-width: 430px)
+{
     /* for mobiles */
     .main_content{
         border: 0.5px solid;
-        height: 60vh;
+        height: 72vh;
         width: 100%;
         background-image: url(../assets/nature\ background\ .jpg);
         background-repeat: no-repeat;
@@ -55,21 +56,21 @@
     .main_content .heading{
         width: 80%;
         margin: 100px auto 20px;
-        font-size: 30px;
+        font-size: 28px;
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
         font-family: 'Merriweather', serif;
         font-weight: 800;
     }
     .main_content .theme{
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 19px;
         margin: 0px 20px;
         font-weight: 550;
     }
     .main_content .date{
         font-weight: 600;
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 14px;
     }
     .main_content .venue{
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
@@ -88,7 +89,7 @@
 @media only screen and  (min-device-width: 768px) and (max-device-width: 1024px){
     .main_content{
         border: 0.5px solid;
-        height: 45vh;
+        height: 65vh;
         width: 100%;
         background-image: url(../assets/nature\ background\ .jpg);
         background-repeat: no-repeat;
@@ -99,7 +100,7 @@
     }
     .main_content .heading{
         width: 80%;
-        margin: 120px auto 20px;
+        margin: 95px auto 20px;
         font-size: 35px;
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
         font-family: 'Merriweather', serif;
