@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './components/header/header';
-import Bar from './components/body/bar';
-import Tab from './components/body/tab';
+import "./App.css";
+import Header from "./components/header/header";
+import Bar from "./components/body/bar";
+import Mainbody from "./components/body/mainbody";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Bar/>
-      <Tab/>
+      <Header />
+      <Bar />
+      <Mainbody/>
     </div>
   );
 }
