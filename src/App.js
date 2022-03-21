@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/header';
-import Bar from './components/body/bar'
-import Tab from './components/body/tab'
+import Bar from './components/body/bar';
+import Tab from './components/body/tab';
 
 function App() {
   return (

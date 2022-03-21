@@ -1,27 +1,81 @@
-import '../../styles/tab.css';
+import * as React from "react";
+import "../../styles/tab.css";
+import logo1 from "../../assets/logo1.png";
+import logo2 from "../../assets/logo2.jpg";
+import logo3 from "../../assets/logo3.jpg";
+import logo4 from "../../assets/logo4.png";
+
 function Tab() {
   return (
-    <div>
-       <div className='tab'>
-          <ul className='list'>
-              <li className='list-elements'>Home </li>
-              <li className='list-elements'>Call for papers </li>
-              <li className='list-elements'>Important Dates </li>
-              <li className='list-elements'>Paper Submissions </li>
-              <li className='list-elements'>Fee & Online Regestration </li>
-              <li className='list-elements'> Organising committee</li>
-              <li className='list-elements'>Keynote Speakers</li>
-              <li className='list-elements'>About CUH </li>
-              <li className='list-elements'>Contact Us</li>
-              <li className='list-elements'>Previous Conference</li>
-              <li className='list-elements'> How to reach Haryana </li>
-              <li className='list-elements'>Accomodation </li>
-              
-          </ul>
-
-       </div>
-
-
+    <div className="parent">
+      <div className="logo_img">
+        <img className="logo" id="logo1" src={logo1} />
+        <img className="logo" id="logo2" src={logo2} />
+        <img className="logo" id="logo3" src={logo3} />
+        <img className="logo" id="logo4" src={logo4} />
+      </div>
+      <ul className="list">
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Home </p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Call for papers </p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Important Dates </p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Paper Submissions </p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Fee & Online Regestration </p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Organising committee</p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Keynote Speakers</p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">About CUH</p>{" "}
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Contact Us</p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt">Previous Conference</p>
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements">
+            <p className="txt"> How to reach Haryana</p>{" "}
+          </li>
+        </a>
+        <a className="txt_list" href="#">
+          <li className="list-elements_last">
+            <p className="txt">Accomodation </p>
+          </li>
+        </a>
+      </ul>
     </div>
   );
 }
