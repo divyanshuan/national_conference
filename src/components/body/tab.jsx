@@ -1,7 +1,7 @@
 import * as React from "react";
 import "../../styles/tab.css";
-import logo1 from "../../assets/logo1.png";
-import logo2 from "../../assets/logo2.jpg";
+import logo1 from "../../assets/cuh-logo.png";
+import logo2 from "../../assets/ssteps.jpg";
 import logo3 from "../../assets/logo3.jpg";
 import logo4 from "../../assets/logo4.png";
 

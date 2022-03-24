@@ -9,11 +9,12 @@ function Header() {
         {/* <video className="head_video" autoPlay muted loop>
             <source src={bgVideo} type="video/mp4"/>
             </video> */}
-        <p className="heading">4th International Conference on Energy, Power and Environment  </p>
-        <p className="theme">(Theme: Sustinable Technologies for Smart Future)</p>
-        <p className="date"> April 29 - May 01, 2022</p>
-        <p className="venue"> Venue: Central University of haryana </p>
-        <p className="format">Event format: Virtual mode </p>
+        <p className="heading">1st International Conference on Smart and Sustainable Technologies</p>
+        {/* <p className="theme">(Theme: Sustinable Technologies for Smart Future)</p> */}
+        <p className="date"> 7th Nov - 11th Nov, 2022</p>
+        <p className="venue"> Venue: Dept. of Electrical Engineering, Central University of Haryana, Haryana </p>
+        <p className="venue"> Central University of Haryana, Haryana </p>
+        {/* <p className="format">Event format: Virtual mode </p> */}
     
 
       </div>
