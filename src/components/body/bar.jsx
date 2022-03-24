@@ -27,16 +27,15 @@ function Bar() {
         >
           <SwiperSlide>
             <p className="quote">
-              Slide 1
-              ihioh;obluginugfioefniubfbigiedhfbiuefbiwujksbdiugfibakfnuygfaiurfukvfaudkvwydvfadvguyyvfsad
+              All the accepted and presented papers will be available in IEEE explorer.
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <p className="quote">Slide 2</p>
+            <p className="quote">Paper submission deadline: 15th Sept, 2022</p>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <p className="quote">Slide 3</p>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
