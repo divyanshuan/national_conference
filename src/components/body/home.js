@@ -10,7 +10,7 @@ function Home() {
             <source src={bgVideo} type="video/mp4"/>
             </video> */}
         <p className="heading">1<sup>st</sup> International Conference on Smart and Sustainable Technologies</p>
-        <p className="ssteps">SSPEPS - 2022</p>
+        <p className="ssteps">SSTEPS - 2022</p>
         {/* <p className="theme">(Theme: Sustinable Technologies for Smart Future)</p> */}
         <p className="date"> 7th Nov - 10th Nov, 2022</p>
         <p className="venue"> Venue: Dept. of Electrical Engineering, Central University of Haryana, Haryana </p>
