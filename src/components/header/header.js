@@ -43,7 +43,7 @@ hamburger.addEventListener('click', ()=>{
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About CUH</a></li>
             {/* <li><button class="login-button" href="#">Login</button></li> */}
-            <li><button class="join-button" href="#">Registration</button></li>
+            <li><button className="join-button" href="#">Registration</button></li>
         </ul>
     </nav>
     </>

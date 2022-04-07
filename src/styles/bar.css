@@ -15,9 +15,10 @@
     color:white;
     overflow: hidden;
     display: flex; 
-    align-items: center;
+    /* align-items: center; */
     align-content: center;
     justify-content: center;
+    margin-top: 1%; 
 }
 /* mobile devices  */
 @media only screen and  (min-device-width: 0px) and (max-device-width: 435px)

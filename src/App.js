@@ -2,7 +2,8 @@ import "./App.css";
 import Header from "./components/header/header";
 import Bar from "./components/body/bar";
 import Home from "./components/body/home";
-import Mainbody from "./components/body/mainbody";
+import Firstpage from "./components/content/firstpage";
+// import Mainbody from "./components/body/mainbody";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Header />
       <Home />   
       <Bar />
-      <Mainbody/>
+      {/* <Mainbody/> */}
+      <Firstpage/>
+
     </div>
   );
 }
