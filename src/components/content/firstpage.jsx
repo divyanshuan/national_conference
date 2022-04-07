@@ -3,7 +3,7 @@ import "../../styles/content_css/firstpage.css";
 function Firstpage() {
   return (
     <div>
-  <h1 className="app">hello </h1>
+  <h1 className="app">SSTEPS - 2022</h1>
   <p className="paragra">An International Conference on Smart and Sustainable technologies in Energy and Power Systems
 (SSTEPS) is being organized by the Department of Electrical Engineering, School of Engineering
 and Technology, Central University of Haryana on 7th-11th Nov, 2022. The aim is to provide an
@@ -18,8 +18,6 @@ practitioners from all over the world to discuss the use of the advanced technol
 systems, smart grids, renewable energy resources, energy for agriculture and rural growth. It also
 provides a platform for researchers to identify the emerging problems and continuation of further
 research on those areas. (Need to the correct the Home section again)</p>
-
-
     </div>
   );
 }

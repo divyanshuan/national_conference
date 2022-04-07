@@ -9,6 +9,11 @@
     color: #fff;
     box-shadow: 5px 5px 5px #000 ;
     padding: 10vh;
+    /* display: flex; */
+}
+.content{
+    width: 80%;
+    text-align: center;
 }
 .main_content .heading{
     width: 80%;
