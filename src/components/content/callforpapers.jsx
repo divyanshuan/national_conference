@@ -2,7 +2,7 @@
 function CallForPapers() {
   return (
     <div>
-        <h1>hemmnkejdni</h1>
+        lorem 
 
     </div>
   );

@@ -26,10 +26,10 @@ hamburger.addEventListener('click', ()=>{
   return (
     <>
       <nav>
-        <div class="logo">
+        {/* <div class="logo">
             <img src={cuhLogo} alt="Logo Image" />
             <img src={sstepsLogo} alt="Logo Image" />
-        </div>
+        </div> */}
         <div class="hamburger">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -37,13 +37,13 @@ hamburger.addEventListener('click', ()=>{
         </div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Call for Papers</a></li>
+            <li><a href="#">Organising Committee</a></li>
             <li><a href="#">Keynote Speakers</a></li>
-            <li><a href="#">Organizing Committee</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">About CUH</a></li>
+            <li><a href="#">Call for Papers</a></li>
+            <li><a href="#">Local Arrangement</a></li>
+            {/* <li><a href="#">About CUH</a></li> */}
             {/* <li><button class="login-button" href="#">Login</button></li> */}
-            <li><button className="join-button" href="#">Registration</button></li>
+            {/* <li><button className="join-button" href="#">Registration</button></li> */}
         </ul>
     </nav>
     </>
