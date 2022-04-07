@@ -6,8 +6,9 @@ import logo3 from "../../assets/logo3.jpg";
 import logo4 from "../../assets/logo4.png";
 import { Link } from "react-router-dom";
 
-function Tab() {
+const Tab =() => {
   return (
+    <>
     <div className="parent">
       <div className="logo_img">
         <img className="logo" id="logo1" src={logo1} />
@@ -78,6 +79,7 @@ function Tab() {
         </a>
       </ul>
     </div>
+    </>
   );
 }
 

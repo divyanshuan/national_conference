@@ -1,8 +1,9 @@
+import React from "react";
 
-function CallForPapers() {
+const CallForPapers = () => {
   return (
     <div>
-        lorem 
+     
 
     </div>
   );

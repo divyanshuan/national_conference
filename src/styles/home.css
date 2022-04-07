@@ -11,10 +11,9 @@
     padding: 10vh;
     /* display: flex; */
 }
-.content{
-    width: 80%;
-    text-align: center;
-}
+/* .content{
+    width: 100%;
+} */
 .main_content .heading{
     width: 80%;
     margin: 100px auto 20px;

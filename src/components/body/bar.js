@@ -7,7 +7,7 @@ import "../../../node_modules/swiper/swiper-bundle.css";
 import "../../../node_modules/swiper/swiper.min.css";
 // import "../../../node_modules/swiper/modules/navigation/navigation.min.css";
 // import "../../../node_modules/swiper/modules/pagination/pagination.min.css";
-function Bar() {
+const Bar =()=> {
   return (
     <div className="bar">
       <div className="container">

@@ -1,5 +1,6 @@
+import React from "react";
 
-function FeeaandOnline() {
+const FeeaandOnline =()=> {
     return (
       <div>
           <h1>hemmnkejdni</h1>

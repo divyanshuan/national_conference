@@ -2,7 +2,7 @@
     height: 8vh;
     width: 99%;
     border-radius:1rem;
-    background-color: rgb(39, 39, 184);
+    background-color: #0d1847;
     margin:1% auto;
     box-shadow: 2.5px 2.5px 3px #000;
     
@@ -27,7 +27,7 @@
         height: 9vh;
         width: 99%;
         border-radius:1rem;
-        background-color: rgb(39, 39, 184);
+        background-color: #0d1847;
         margin: 1% auto;
         box-shadow: 2px 2px 2.5px #000;
         
@@ -54,7 +54,7 @@
         height: 8vh;
         width: 99%;
         border-radius:1rem;
-        background-color: rgb(39, 39, 184);
+        background-color: #0d1847;
         margin: 1% auto;
         margin-top: 1%;
         box-shadow: 2px 2px 2.5px #000;

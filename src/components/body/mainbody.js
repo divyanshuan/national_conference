@@ -6,7 +6,7 @@ import CallForPapers from "../content/callforpapers";
 import ImportantDates from "../content/important dates";
 import PaperSubmission from "../content/papersubmission";
 
-function Mainbody() {
+const  Mainbody = ()=> {
   return (
     <div>
       <div className="routing_ele">
