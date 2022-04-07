@@ -21,32 +21,30 @@ const App = () => {
       {/* <Firstpage/> */}
 
       <Router>
-          <div className="router-container">
-            {/* <Tab /> */}
+        <div className="router-container">{/* <Tab /> */}</div>
+        <Switch>
+          <div className="home-container">
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/callforpapers">
+              <CallForPapers />
+            </Route>
+            <Route exact path="/important_dates">
+              <ImportantDates />
+            </Route>
+            <Route exact path="/papers_submission">
+              <PaperSubmission />
+            </Route>
+            <Route exact path="/fee">
+              <PaperSubmission />
+            </Route>
           </div>
-          <Switch>
-            <div className="home-container">
-              <Route exact path="/">
-                <Home />
-              </Route>
-              {/* <Route exact path="/cfp">
-                <CallForPapers/>
-              </Route> */}
-              <Route exact path="/imp">
-                <ImportantDates/> 
-              </Route>
-              <Route exact path="/pap">
-                <PaperSubmission/> 
-              </Route>
-              <Route exact path="/fee">
-                <PaperSubmission/> 
-              </Route>
-            </div>
-          </Switch>
-        </Router>
-        <Footer/>
+        </Switch>
+      </Router>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
