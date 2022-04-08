@@ -1,9 +1,6 @@
 import React from 'react';
-// import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
 import '../../styles/footer.css';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 const Footer = () =>{
@@ -12,21 +9,20 @@ const Footer = () =>{
           <div className="footer-main">
              <div className="footer">
                <div className="box contact-box">
-                 <h1>Contact</h1>
-                 <p>Refined Minds <br/>
-                    "Teaching our students about the <br/>
-                    world the will inherit, and <br/>
-                    inspiring them to change it!"—RP
+                 <h1>SSTEPS- 2022</h1>
+                 <p>Department of Electrical Engineering<br/>
+                    Central University of Haryana<br/>
                  </p>
                </div>
                <div className="box">
+                 <h2>Contact</h2>
                  <p>Tel: +911234567890</p>
                  <p>Email: info@contact.com</p>
-                 <p> <a href="/contact">Book a consultation</a></p>
+                 {/* <p> <a href="/contact">Book a consultation</a></p> */}
                  <div className="social-media">
-                    {/* <FacebookIcon/>
-                    <InstagramIcon/>
-                    <YouTubeIcon/> */}
+                    <a className='icon' href='/'><FaFacebook/></a>
+                    <a className='icon' href='/'><FaInstagram/></a>
+                    <a className='icon' href='/'><FaYoutube/></a>
                  </div>
                </div>
                <div className="box newsletter">
@@ -38,7 +34,7 @@ const Footer = () =>{
                </div>
              </div>
              <div className="copyright">
-                <p>Copyright @ 2021 by Redefined minds</p>
+                <p>Copyright @ 2022</p>
              </div>
           </div>
         </>

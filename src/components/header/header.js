@@ -1,7 +1,8 @@
-import React, {useEffect} from "react";
+import React from 'react';
+// import React, {useEffect} from "react";
 import "../../styles/header.css";
-import cuhLogo from '../../assets/cuh-logo.png'
-import sstepsLogo from '../../assets/ssteps.jpg'
+// import cuhLogo from '../../assets/cuh-logo.png'
+// import sstepsLogo from '../../assets/ssteps.jpg'
 // import bgVideo from "../../assets/sample video.mp4"
 
 function Header() {
@@ -37,10 +38,10 @@ hamburger.addEventListener('click', ()=>{
         </div>
         <ul class="nav-links">
             <li><a href="/">Home</a></li>
-            <li><a href="#">Organising Committee</a></li>
-            <li><a href="#">Keynote Speakers</a></li>
+            <li><a href="/">Organising Committee</a></li>
+            <li><a href="/">Keynote Speakers</a></li>
             <li><a href="/callforpapers">Call for Papers</a></li>
-            <li><a href="#">Local Arrangement</a></li>
+            <li><a href="/">Local Arrangement</a></li>
             {/* <li><a href="#">About CUH</a></li> */}
             {/* <li><button class="login-button" href="#">Login</button></li> */}
             {/* <li><button className="join-button" href="#">Registration</button></li> */}

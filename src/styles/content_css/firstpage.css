@@ -1,22 +1,28 @@
+.firstpage{
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.firstpage_container{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
 .firstpage_heading{
     text-align: center;
 }
 .spons1{
     width: 20%;
-    border: 1px solid red ;
+    text-align: center;
+    /* border: 1px solid red ; */
 }
 .spons2{
     width: 20%;
-    border: 1px solid red ;
+    text-align: center;
+    /* border: 1px solid red ; */
 }
 .paragra{
     display: flex;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
+    font-size: 20px;
     width: 60%;
-}
-.firstpage_container{
-    display: flex;
-    flex-direction: row;
-
-    /* width: 60%; */
 }

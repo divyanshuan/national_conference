@@ -1,9 +1,9 @@
 import "./App.css";
 import Header from "./components/header/header";
-import Bar from "./components/body/bar";
+// import Bar from "./components/body/bar";
 import Home from "./components/body/home";
-import Firstpage from "./components/content/firstpage";
-import Mainbody from "./components/body/mainbody";
+// import Firstpage from "./components/content/firstpage";
+// import Mainbody from "./components/body/mainbody";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CallForPapers from "./components/content/callforpapers";
 import ImportantDates from "./components/content/important dates";
