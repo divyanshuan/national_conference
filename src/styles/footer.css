@@ -31,6 +31,16 @@
     display: flex;
     justify-content: space-around;
 }
+.box .social-media .icon{
+    font-size: 30px;
+    margin: 5px;
+    color: #fff;
+}
+.box .social-media .icon:hover{
+    /* text-decoration: none; */
+    background: none;
+    cursor: pointer;
+}
 .box p a{
     color: #fff
 }

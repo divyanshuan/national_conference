@@ -2,22 +2,22 @@ import React from "react";
 import img123 from "../../assets/powersystem.jpg";
 import "../../styles/content_css/callforpaper.css";
 
-const topic = [
-  { name: "A", img: img123, dicript: "Power Systm" },
-  { name: "B", img: img123, dicript: "Smart Grids" },
-  {
-    name: "C",
-    img: img123,
-    dicript: "Signal Processing, Control and Communication Technologies",
-  },
-  {
-    name: "D",
-    img: img123,
-    dicript: "Energy for Agriculture and rular development",
-  },
-  { name: "E", img: img123, dicript: "Advanced Power Converter" },
-  { name: "F", img: img123, dicript: "Renewawble Energy Resources" },
-];
+// const topic = [
+//   { name: "A", img: img123, dicript: "Power Systm" },
+//   { name: "B", img: img123, dicript: "Smart Grids" },
+//   {
+//     name: "C",
+//     img: img123,
+//     dicript: "Signal Processing, Control and Communication Technologies",
+//   },
+//   {
+//     name: "D",
+//     img: img123,
+//     dicript: "Energy for Agriculture and rular development",
+//   },
+//   { name: "E", img: img123, dicript: "Advanced Power Converter" },
+//   { name: "F", img: img123, dicript: "Renewawble Energy Resources" },
+// ];
 // const Imgcard= (topic)=>{
 //   return(
 
@@ -49,7 +49,7 @@ const CallForPapers = () => {
               <div className="cfp_cardsa">
               <div className="cfp_cards">
                 <div class="item uncover">
-                  <img className="cfp_img" src={topicdetail.img} alt="image" />
+                  <img className="cfp_img" src={topicdetail.img} alt="call for paper" />
                   <div class="overlay">
                     {/* <span>''</span> */}
                     <span>{topicdetail.dicript}</span>
@@ -68,10 +68,7 @@ const CallForPapers = () => {
 
 export default CallForPapers;
 
-{
-  /* <img className="topic_image" src={topicdetail.img} alt=""/>
-<p className="topic_head">{topicdetail.img}</p> */
-}
+
 
 // {topic
 //   ? topic.map((item) => {
