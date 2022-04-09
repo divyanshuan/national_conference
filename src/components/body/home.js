@@ -1,11 +1,11 @@
 import React from "react";
 import "../../styles/home.css";
 // import bgVideo from "../../assets/sample video.mp4"
-import CallForPapers from "../content/callforpapers";
+// import CallForPapers from "../content/callforpapers";
 import Firstpage from "../content/firstpage";
 import Bar from "./bar";
 
-function Home() {
+const Home = () => {
   return (
     <div className="return">
       <div className="main_content">
@@ -20,7 +20,7 @@ function Home() {
         <p className="venue"> Central University of Haryana, Haryana </p> */}
         {/* <p className="format">Event format: Virtual mode </p> */}
       </div>
-      <Bar/>
+      <Bar />
       <div className="content">
         <Firstpage/>
       </div>
