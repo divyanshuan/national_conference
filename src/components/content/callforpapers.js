@@ -1,6 +1,7 @@
 import React from "react";
 import img123 from "../../assets/powersystem.jpg";
 import "../../styles/content_css/callforpaper.css";
+import PageBanner from "../common/pageBanner";
 
 // const topic = [
 //   { name: "A", img: img123, dicript: "Power Systm" },
@@ -43,6 +44,10 @@ const CallForPapers = () => {
   ];
   return (
     <>
+      <PageBanner
+        pageTitle="Call for Papers"
+      />
+
       <div className="callforpaper">
           { topic ? topic.map((topicdetail) => (
               <>
