@@ -1,6 +1,6 @@
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from '../../media/logo.png';
+import logo from '../../../assets/cuh-logo.png';
 
 export const Nav = styled.nav`
 background: #F5F5F5;

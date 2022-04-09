@@ -5,14 +5,14 @@ import "../../styles/header.css";
 // import sstepsLogo from '../../assets/ssteps.jpg'
 // import bgVideo from "../../assets/sample video.mp4"
 
-function Header() {
+const Header = () => {
  const hamburger = document.querySelector(".hamburger");
  const navLinks = document.querySelector(".nav-links");
  const links = document.querySelectorAll(".nav-links li");
 
 if(hamburger){
-hamburger.addEventListener('click', ()=>{
-   //Animate Links
+    hamburger.addEventListener('click', ()=>{
+    //Animate Links
     navLinks.classList.toggle("open");
     links.forEach(link => {
         link.classList.toggle("fade");
@@ -39,9 +39,9 @@ hamburger.addEventListener('click', ()=>{
         <ul class="nav-links">
             <li><a href="/">Home</a></li>
             <li><a href="/orginisingcommittee">Organising Committee</a></li>
-            <li><a href="/">Keynote Speakers</a></li>
+            <li><a href="/keynote-speakers">Keynote Speakers</a></li>
             <li><a href="/callforpapers">Call for Papers</a></li>
-            <li><a href="/">Local Arrangement</a></li>
+            <li><a href="/local-arrangements">Local Arrangement</a></li>
             {/* <li><a href="#">About CUH</a></li> */}
             {/* <li><button class="login-button" href="#">Login</button></li> */}
             {/* <li><button className="join-button" href="#">Registration</button></li> */}

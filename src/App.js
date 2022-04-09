@@ -1,28 +1,22 @@
 import "./App.css";
 import Header from "./components/header/header";
-// import Bar from "./components/body/bar";
 import Home from "./components/body/home";
-// import Firstpage from "./components/content/firstpage";
-// import Mainbody from "./components/body/mainbody";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CallForPapers from "./components/content/callforpapers";
-import ImportantDates from "./components/content/important dates";
-import PaperSubmission from "./components/content/papersubmission";
 import Orginisingcommittee from "./components/content/organisingcommittee";
+import KeyNoteSpeakers from "./components/content/keyNoteSpeakers";
+import LocalArrangements from "./components/content/localArrangements";
 import Footer from "./components/footer";
 
 const App = () => {
   return (
     <div className="App">
+    <div className="header-container"> 
       <Header />
-
-      {/* <Home />    */}
-      {/* <Bar /> */}
-      {/* <Mainbody/> */}
-      {/* <Firstpage/> */}
+    </div>
 
       <Router>
-        <div className="router-container">{/* <Tab /> */}</div>
+        {/* <div className="router-container"><Tab /></div> */}
         <Switch>
           <div className="home-container">
             <Route exact path="/">
@@ -34,11 +28,11 @@ const App = () => {
             <Route exact path="/callforpapers">
               <CallForPapers />
             </Route>
-            <Route exact path="/important_dates">
-              <ImportantDates />
+            <Route exact path="/keynote-speakers">
+              <KeyNoteSpeakers />
             </Route>
-            <Route exact path="/papers_submission">
-              <PaperSubmission />
+            <Route exact path="/local-arrangements">
+              <LocalArrangements />
             </Route>
           </div>
         </Switch>

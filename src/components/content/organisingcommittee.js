@@ -1,9 +1,13 @@
 import React from "react";
 import "../../styles/content_css/orginisingcommittee.css";
 import patronimg from "../../assets/download.png";
+import PageBanner from "../common/pageBanner";
 const Orginisingcommittee = () => {
   return (
     <>
+      <PageBanner
+        pageTitle="Organizing Committee"
+      />
       <div className="patron_item">
         <img className="member_img" src={patronimg} alt="patronimage" />
         <h3 className="member_head">Prof. (Dr.) Tankeshwar Kumar</h3>
