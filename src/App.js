@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CallForPapers from "./components/content/callforpapers";
 import ImportantDates from "./components/content/important dates";
 import PaperSubmission from "./components/content/papersubmission";
+import Orginisingcommittee from "./components/content/organisingcommittee";
 import Footer from "./components/footer";
 
 const App = () => {
@@ -27,6 +28,9 @@ const App = () => {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route exact path="/orginisingcommittee">
+              <Orginisingcommittee/>
+            </Route>
             <Route exact path="/callforpapers">
               <CallForPapers />
             </Route>
@@ -34,9 +38,6 @@ const App = () => {
               <ImportantDates />
             </Route>
             <Route exact path="/papers_submission">
-              <PaperSubmission />
-            </Route>
-            <Route exact path="/fee">
               <PaperSubmission />
             </Route>
           </div>

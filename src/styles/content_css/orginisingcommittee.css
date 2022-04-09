@@ -1,0 +1,40 @@
+
+.patron_item{
+    /* margin: 70px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.patron_item .member_img{
+    width: 200px;
+    height: 200px;
+}
+.patron_item .member_head{
+    text-align: center;
+    margin: 0px;
+    width: 200px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.patron_item .member_role{
+    margin: 0px;
+}
+.underline{
+    /* content: "_____"; */
+    /* color: green; */
+    width: 70px;
+    border-top: 4px solid green;
+}
+.underline::after{
+    content: "";
+}
+.copatron_item{
+    /* margin: 70px; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
