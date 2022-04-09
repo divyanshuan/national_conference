@@ -1,5 +1,11 @@
 import React from "react";
-import img123 from "../../assets/powersystem.jpg";
+import img123 from "../../assets/power_systems.jpg";
+import img124 from "../../assets/smartgrid.jpg";
+import img126 from "../../assets/agriculture_rular.jpg";
+// import img126 from "../../assets/powersystem.jpg";
+// import img127 from "../../assets/powersystem.jpg";
+// import img128 from "../../assets/powersystem.jpg";
+
 import "../../styles/content_css/callforpaper.css";
 
 // const topic = [
@@ -27,7 +33,7 @@ import "../../styles/content_css/callforpaper.css";
 const CallForPapers = () => {
   const topic = [
     { name: "A", img: img123, dicript: "Power System" },
-    { name: "B", img: img123, dicript: "Smart Grids" },
+    { name: "B", img: img124, dicript: "Smart Grids" },
     {
       name: "C",
       img: img123,
@@ -35,7 +41,7 @@ const CallForPapers = () => {
     },
     {
       name: "D",
-      img: img123,
+      img: img126,
       dicript: "Energy for Agriculture and rular development",
     },
     { name: "E", img: img123, dicript: "Advanced Power Converter" },

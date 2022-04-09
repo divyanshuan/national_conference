@@ -38,7 +38,7 @@ hamburger.addEventListener('click', ()=>{
         </div>
         <ul class="nav-links">
             <li><a href="/">Home</a></li>
-            <li><a href="/">Organising Committee</a></li>
+            <li><a href="/orginisingcommittee">Organising Committee</a></li>
             <li><a href="/">Keynote Speakers</a></li>
             <li><a href="/callforpapers">Call for Papers</a></li>
             <li><a href="/">Local Arrangement</a></li>

@@ -10,16 +10,16 @@ body{
     overflow-x: hidden;
 }
 nav{
-
     height: 6rem;
     width: 100vw;
     background-color: #0d1847;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     z-index: 10;
     /* border: 1px solid red; */
     justify-content: center;
+    /* margin-top: 10px; */
 }
 
 /*Styling logo*/
