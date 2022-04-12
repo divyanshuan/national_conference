@@ -7,6 +7,7 @@ import Orginisingcommittee from "./components/content/organisingcommittee";
 import KeyNoteSpeakers from "./components/content/keyNoteSpeakers";
 import LocalArrangements from "./components/content/localArrangements";
 import Footer from "./components/footer";
+import Navbar from "./components/header/navbar";
 
 const App = () => {
   return (
