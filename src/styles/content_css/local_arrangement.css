@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.about_haryana{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #F2F2F2;
+    /* border: 1px solid red; */
+}
+.p-about-haryana{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.location_haryana{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #444444;
+}
+.p-location_haryana{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.aboutcuh_head{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.p_aboutcuh{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.about_dept{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #444444;
+}
+.how_to_reach{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map_how_to_reach{
+    height: 50vh;
+    width: 85%;
+}
+.how_to_reach_head{
+    align-items: left;
+    text-align: left;
+}
+
+/*for table*/

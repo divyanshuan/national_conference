@@ -2,9 +2,329 @@
     "patron":[
         {
             "name":"Prof. (Dr.) Tankeshwar Kumar",
-            "role":
+            "role":"Honarable Vice chancellor",
+            "department":"",
+            "collage":"Central University of Haryana",
+            "location":"India"
         }
-    ]
+    ],
+    "honorarychair":[
+        {
+            "name":"Prof. sathans",
+            "role":"Dean Academics",
+            "department":"Dept of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Kurukshetra, India"
+        }
+    ],
+    "generalchair":[
+        {
+            "name":"Akshay KR. Rathore",
+            "role":"",
+            "department":"",
+            "collage":"Concordia University",
+            "location":"Canada"
+        },        
+        {
+            "name":"Dr. Phool Singh",
+            "role":"Dean",
+            "department":"School of Engineering and Techonology",
+            "collage":"Central University of Haryana",
+            "location":"India"
+        }
+    ],
+    "programchair":[
+        { 
+            "name":"Dr. Rajesh Kumar Dubey",
+            "role":"Head of the Department",
+            "department":"Dept. of Electrical Engineering , SOET",
+            "collage":"Central University of Haryana",
+            "location":"India"
+        } 
+    ],
+    "Technicalprogramcommitteechair":[
+        { 
+            "name":"Dr. Ajay Kumar Bansal",
+            "role":"Professor",
+            "department":"Dept. of Electrical Engineering, SOET",
+            "collage":"Central University of Haryana",
+            "location":"India"
+        },
+        { 
+            "name":"Dr. Sadhan Gope",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"Mizoram University",
+            "location":"India"
+        }  
+    ],
+    "Technicalprogramcommitteemembers":[
+        { 
+            "name":"Dr. Soumya Mishra",
+            "role":"",
+            "department":"Dept. of Electrical and Electronics Engineering",
+            "collage":"MVJ College of Engineering",
+            "location":"Banglore, India"
+        },       
+        { 
+            "name":"Dr. Chinmaya Behera",
+            "role":"",
+            "department":"",
+            "collage":"CMR Institute of Technology",
+            "location":"Banglore, India"
+        } ,
+        { 
+            "name":"Dr. Subhasish Deb",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"Mizoram University",
+            "location":"India"
+        },
+        { 
+            "name":"Dr. Rambabu",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Calicut, India"
+        },
+        { 
+            "name":"Dr. Tirumalasetty Chiranjeevi",
+            "role":"",
+            "department":"",
+            "collage":"Rajkiya Engineering College",
+            "location":"Sonbhadra, India"
+        },
+        { 
+            "name":"Dr.D.Krishna",
+            "role":"",
+            "department":"",
+            "collage":"Vardhaman College of Engineering, ",
+            "location":"Hyderabad, India"
+        },
+        { 
+            "name":"Dr.Vinod Adla",
+            "role":"",
+            "department":"",
+            "collage":" Marri Laxman Reddy Institute of Technology and Management",
+            "location":"Hyderabad, India"
+        },
+        { 
+            "name":"Dr.G. Amarnath",
+            "role":"",
+            "department":"",
+            "collage":" Marri Laxman Reddy Institute of Technology and Management",
+            "location":"Hyderabad, India"
+        },
+        { 
+            "name":"Dr. Samineni Peddakrishna",
+            "role":"",
+            "department":"",
+            "collage":"Vellore Institute of Technology",
+            "location":"Amaravati, India"
+        },
+        { 
+            "name":"Dr. Jayesh Ruikar",
+            "role":"",
+            "department":"",
+            "collage":"Bajaj Institute of Technology",
+            "location":"Maharashtra, India"
+        }
+    ],
+    "Organizingchair":[
+        { 
+           "name":"Dr. Muralidhar Nayak Bhukya",
+           "role":"",
+           "department":"Dept. of Electrical Engineering, SOET",
+           "collage":"Central University of Haryana",
+           "location":"India"
+       }
+    ],
+    "Organizingsecretary":[
+        {
+            "name":"Dr. Galiveeti Hemakumar Reddy",
+            "role":"",
+            "department":"Dept. of Electrical and Electronics Engineering",
+            "collage":"MVJ College of Engineering",
+            "location":"Banglore, India"
+        }
+    ],
+    "organisingco-secretry":[
+    {
+        "name":"Dr. Manish Kumar",
+        "role":"",
+        "department":"Dept. of Electrical Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    },
+    {
+        "name":"Dr. Abisheik Jindal",
+        "role":"",
+        "department":"Dept. of Civil Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    }
+],
+"Publicity&publicrelationschair":[
+    {    
+        "name":"Dr. More Raju",
+        "role":"",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"Maulana Azad National Institute of Technology",
+        "location":"Bhopal,India"
+
+    },
+    {
+        "name":"Dr. Kalphana Chauhan",
+        "role":"",
+        "department":"Dept. of Electrical Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    }
+],
+"Webadministrator":[
+    {
+        "name":"Ms. Sangeetha",
+        "role":"",
+        "department":"Dept. of Computer Science and Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    }
+],
+"Localorganizationcommittee":[
+
+    {
+        "name":"Er. Nissan",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    },
+    {
+        "name":"Dr. Kumar. P",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    },
+    {
+        "name":"Dr. Maruthi Mulaka",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    }
+
+],
+"Internationaladvisorycommittee":[
+    {
+        "name":"Dr. Vincenzo Piuri",
+        "role":"Professor",
+        "department":"",
+        "collage":"",
+        "location":""
+    },
+    {
+        "name":"Dr. Akhtar Kalam",
+        "role":"Professor",
+        "department":"",
+        "collage":"Victoria University",
+        "location":"Australia"
+    },
+    {
+        "name":"Dr. Haitham Abu-Rub",
+        "role":"Professor",
+        "department":"",
+        "collage":"Texas A & MUniversity",
+        "location":"Qatar"
+    },
+    {
+        "name":"Dr. Atif Iqbal",
+        "role":"Associate Professor",
+        "department":"",
+        "collage":"Qatar University",
+        "location":"Qatar"
+    },
+    {
+        "name":"Dr. Mohammad Shorif Uddin",
+        "role":"Professor",
+        "department":"",
+        "collage":"Jahangirnagar University",
+        "location":"Bangladesh"
+    }
+],
+"NationalAdvisoryCommittee":[
+    {
+        "name":"Dr. Nidul Sinha",
+        "role":"Professor",
+        "department":"",
+        "collage":"National Institute of Technology",
+        "location":"Silichar, India"
+    },
+    {
+        "name":"Dr. Pramod Kumar Singh",
+        "role":"Associate Professor",
+        "department":"",
+        "collage":"Indian Institute of Information Technology and Management",
+        "location":"Gwalior, India"
+    },
+    {
+        "name":"Dr. Subindu Kumar",
+        "role":"Associate Professor",
+        "department":"",
+        "collage":"Indian Institute of Technology (Indian Schools of Mines)",
+        "location":"Dhanbad, India"
+    }
+],
+"Studentco-ordinator":[
+    {         
+    "name":"Sairaj Arndakar",
+    "role":"Research Scholar",
+    "department":"Dept. of Electrical Engineering, SOET",
+    "collage":"Central University of Haryana",
+    "location":"India"
+    },
+    {         
+    "name":"Rahul Kumar",
+    "role":"Research Scholar",
+    "department":"Dept. of Electrical Engineering, SOET",
+    "collage":"Central University of Haryana",
+    "location":"India"
+    },
+    {
+        "name":"Abhishek Rao",
+        "role":"",
+        "department":"Dept. of Computer Science and Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India"
+    }
+
+],
+"Keynotespeakers":[
+    {
+        "name":"Prof. Ashwani Kumar",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"National Institute of Technology",
+        "location":"KKR, India"
+    },
+    {
+        "name":"Prof. Atma Ram Gupta",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"National Institute of Technology ",
+        "location":"KKR, India"
+    },
+    {
+        "name":"Prof. K Venkata Reddy",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"Jawaharlal Nehru Technological University",
+        "location":"KKR, India"
+    }
+
+]
+
+    
 }
     
 
