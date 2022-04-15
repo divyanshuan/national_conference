@@ -39,3 +39,38 @@
 .underline::after{
     content: "";
 }
+
+
+@media only screen and  (min-device-width: 435px) and (max-device-width: 760px){
+    .committee-main-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 7%;
+    }
+    .committee-container{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        width: 300px;
+    }
+}
+
+@media only screen and  (min-device-width: 0px) and (max-device-width: 435px)
+{
+    .committee-main-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7%;
+    }
+    .committee-container{
+        display: flex;
+        flex-direction: column;
+
+        height: 50vh;
+        width: 300px;
+
+    }
+    
+}
