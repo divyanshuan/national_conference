@@ -5,16 +5,18 @@
             "role":"Honarable Vice chancellor",
             "department":"",
             "collage":"Central University of Haryana",
-            "location":"India"
+            "location":"India",
+            "image":"https://www.cuh.ac.in//images/vcsir11.png"
         }
     ],
     "honorarychair":[
         {
-            "name":"Prof. sathans",
+            "name":"Prof. Sathans",
             "role":"Dean Academics",
             "department":"Dept of Electrical Engineering",
             "collage":"National Institute of Technology",
-            "location":"Kurukshetra, India"
+            "location":"Kurukshetra, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         }
     ],
     "generalchair":[
@@ -23,14 +25,16 @@
             "role":"",
             "department":"",
             "collage":"Concordia University",
-            "location":"Canada"
+            "location":"Canada",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },        
         {
             "name":"Dr. Phool Singh",
             "role":"Dean",
             "department":"School of Engineering and Techonology",
             "collage":"Central University of Haryana",
-            "location":"India"
+            "location":"India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         }
     ],
     "programchair":[
@@ -39,7 +43,8 @@
             "role":"Head of the Department",
             "department":"Dept. of Electrical Engineering , SOET",
             "collage":"Central University of Haryana",
-            "location":"India"
+            "location":"India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         } 
     ],
     "Technicalprogramcommitteechair":[
@@ -48,14 +53,16 @@
             "role":"Professor",
             "department":"Dept. of Electrical Engineering, SOET",
             "collage":"Central University of Haryana",
-            "location":"India"
+            "location":"India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr. Sadhan Gope",
             "role":"",
             "department":"Dept. of Electrical Engineering",
             "collage":"Mizoram University",
-            "location":"India"
+            "location":"India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         }  
     ],
     "Technicalprogramcommitteemembers":[
@@ -64,70 +71,80 @@
             "role":"",
             "department":"Dept. of Electrical and Electronics Engineering",
             "collage":"MVJ College of Engineering",
-            "location":"Banglore, India"
+            "location":"Banglore, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },       
         { 
             "name":"Dr. Chinmaya Behera",
             "role":"",
             "department":"",
             "collage":"CMR Institute of Technology",
-            "location":"Banglore, India"
+            "location":"Banglore, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         } ,
         { 
             "name":"Dr. Subhasish Deb",
             "role":"",
             "department":"Dept. of Electrical Engineering",
             "collage":"Mizoram University",
-            "location":"India"
+            "location":"India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr. Rambabu",
             "role":"",
             "department":"Dept. of Electrical Engineering",
             "collage":"National Institute of Technology",
-            "location":"Calicut, India"
+            "location":"Calicut, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr. Tirumalasetty Chiranjeevi",
             "role":"",
             "department":"",
             "collage":"Rajkiya Engineering College",
-            "location":"Sonbhadra, India"
+            "location":"Sonbhadra, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr.D.Krishna",
             "role":"",
             "department":"",
             "collage":"Vardhaman College of Engineering, ",
-            "location":"Hyderabad, India"
+            "location":"Hyderabad, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr.Vinod Adla",
             "role":"",
             "department":"",
             "collage":" Marri Laxman Reddy Institute of Technology and Management",
-            "location":"Hyderabad, India"
+            "location":"Hyderabad, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr.G. Amarnath",
             "role":"",
             "department":"",
             "collage":" Marri Laxman Reddy Institute of Technology and Management",
-            "location":"Hyderabad, India"
+            "location":"Hyderabad, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr. Samineni Peddakrishna",
             "role":"",
             "department":"",
             "collage":"Vellore Institute of Technology",
-            "location":"Amaravati, India"
+            "location":"Amaravati, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         },
         { 
             "name":"Dr. Jayesh Ruikar",
             "role":"",
             "department":"",
             "collage":"Bajaj Institute of Technology",
-            "location":"Maharashtra, India"
+            "location":"Maharashtra, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         }
     ],
     "Organizingchair":[
@@ -136,7 +153,8 @@
            "role":"",
            "department":"Dept. of Electrical Engineering, SOET",
            "collage":"Central University of Haryana",
-           "location":"India"
+           "location":"India",
+           "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
        }
     ],
     "Organizingsecretary":[
@@ -145,32 +163,36 @@
             "role":"",
             "department":"Dept. of Electrical and Electronics Engineering",
             "collage":"MVJ College of Engineering",
-            "location":"Banglore, India"
+            "location":"Banglore, India",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
         }
     ],
-    "organisingco-secretry":[
+    "organisingcosecretry":[
     {
         "name":"Dr. Manish Kumar",
         "role":"",
         "department":"Dept. of Electrical Engineering, SOET",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Abisheik Jindal",
         "role":"",
         "department":"Dept. of Civil Engineering, SOET",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 ],
-"Publicity&publicrelationschair":[
+"Publicityandpublicrelationschair":[
     {    
         "name":"Dr. More Raju",
         "role":"",
         "department":"Dept. of Electrical Engineering",
         "collage":"Maulana Azad National Institute of Technology",
-        "location":"Bhopal,India"
+        "location":"Bhopal, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
 
     },
     {
@@ -178,7 +200,8 @@
         "role":"",
         "department":"Dept. of Electrical Engineering, SOET",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 ],
 "Webadministrator":[
@@ -187,7 +210,8 @@
         "role":"",
         "department":"Dept. of Computer Science and Engineering, SOET",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 ],
 "Localorganizationcommittee":[
@@ -197,21 +221,24 @@
         "role":"",
         "department":"",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Kumar. P",
         "role":"",
         "department":"",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Maruthi Mulaka",
         "role":"",
         "department":"",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 
 ],
@@ -221,35 +248,40 @@
         "role":"Professor",
         "department":"",
         "collage":"",
-        "location":""
+        "location":"",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Akhtar Kalam",
         "role":"Professor",
         "department":"",
         "collage":"Victoria University",
-        "location":"Australia"
+        "location":"Australia",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Haitham Abu-Rub",
         "role":"Professor",
         "department":"",
         "collage":"Texas A & MUniversity",
-        "location":"Qatar"
+        "location":"Qatar",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Atif Iqbal",
         "role":"Associate Professor",
         "department":"",
         "collage":"Qatar University",
-        "location":"Qatar"
+        "location":"Qatar",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Mohammad Shorif Uddin",
         "role":"Professor",
         "department":"",
         "collage":"Jahangirnagar University",
-        "location":"Bangladesh"
+        "location":"Bangladesh",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 ],
 "NationalAdvisoryCommittee":[
@@ -258,21 +290,24 @@
         "role":"Professor",
         "department":"",
         "collage":"National Institute of Technology",
-        "location":"Silichar, India"
+        "location":"Silichar, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Pramod Kumar Singh",
         "role":"Associate Professor",
         "department":"",
         "collage":"Indian Institute of Information Technology and Management",
-        "location":"Gwalior, India"
+        "location":"Gwalior, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Dr. Subindu Kumar",
         "role":"Associate Professor",
         "department":"",
         "collage":"Indian Institute of Technology (Indian Schools of Mines)",
-        "location":"Dhanbad, India"
+        "location":"Dhanbad, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 ],
 "Studentco-ordinator":[
@@ -281,21 +316,24 @@
     "role":"Research Scholar",
     "department":"Dept. of Electrical Engineering, SOET",
     "collage":"Central University of Haryana",
-    "location":"India"
+    "location":"India",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {         
     "name":"Rahul Kumar",
     "role":"Research Scholar",
     "department":"Dept. of Electrical Engineering, SOET",
     "collage":"Central University of Haryana",
-    "location":"India"
+    "location":"India",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Abhishek Rao",
         "role":"",
         "department":"Dept. of Computer Science and Engineering, SOET",
         "collage":"Central University of Haryana",
-        "location":"India"
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 
 ],
@@ -305,21 +343,24 @@
         "role":"Head",
         "department":"Dept. of Electrical Engineering",
         "collage":"National Institute of Technology",
-        "location":"KKR, India"
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Prof. Atma Ram Gupta",
         "role":"Head",
         "department":"Dept. of Electrical Engineering",
         "collage":"National Institute of Technology ",
-        "location":"KKR, India"
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     },
     {
         "name":"Prof. K Venkata Reddy",
         "role":"Head",
         "department":"Dept. of Electrical Engineering",
         "collage":"Jawaharlal Nehru Technological University",
-        "location":"KKR, India"
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
     }
 
 ]

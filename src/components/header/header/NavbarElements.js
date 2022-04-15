@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import logo from '../../../assets/cuh-logo.png';
 
 export const Nav = styled.nav`
-background: #F5F5F5;
-height: 23vh;
+background: #0d1847;
+height: 15vh;
 display: flex;
 justify-content: space-between;
 z-index: 12;
@@ -14,8 +14,8 @@ width: 100%;
 `;
 
 export const Logo = styled.img`
-height: 220px;
-width: 240px;
+height: 100px;
+width: 100px;
 align-items: center;
 margin-left: 80px;
 @media screen and (max-width: 768px) {
