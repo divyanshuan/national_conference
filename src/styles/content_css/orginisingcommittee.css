@@ -1,40 +1,41 @@
-
-.patron_item{
-    /* margin: 70px; */
+.committee-main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap
+}
+.committee-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    height: 50vh;
+    width: 300px;
+    /* border: 1px solid red; */
 }
-.patron_item .member_img{
+.committee-container .member_img{
     width: 200px;
     height: 200px;
 }
-.patron_item .member_head{
+.committee-container .member_head{
     text-align: center;
     margin: 0px;
     width: 200px;
     font-size: 1.2rem;
     font-weight: 600;
 }
-.patron_item .member_role{
+.committee-container .member_role{
     margin: 0px;
+    text-align: center;
 }
 .underline{
-    /* content: "_____"; */
-    /* color: green; */
     width: 70px;
     border-top: 4px solid green;
 }
 .underline::after{
     content: "";
-}
-.copatron_item{
-    /* margin: 70px; */
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
 }

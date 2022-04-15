@@ -1,28 +1,39 @@
 /* @import url('https://fonts.googleapis.com/css?family=Coustard:300,400&display=swap'); */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,900);
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-.call-for-paper-intro{
+
+.callforpaper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+.callforpaper .call-for-paper-intro{
   width: 80%;
 }
-.call-for-paper-intro p{
+.callforpaper .call-for-paper-intro p{
   font-size: 20px;
 }
-.callforpaper{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    /* border: 1px solid red; */
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 10vh;
-}
+
 .cfp_cardsa{
     display: flex;
+    justify-content: start;
+    align-items: center;
     flex-direction: column;
     margin: 1%;
     margin-top: 10vh;
     /* border: 1px solid red; */
-    /* width: 450px; */
+    width: 400px;
+}
+.cfp_cardsa .button{
+  background-color: #0d1847;
+}
+
+.cfp_cardsa .button:hover{
+  background-color: #0d1847;
 }
 .cfp_cards{
     display: flex;
@@ -31,8 +42,8 @@
     /* width: 450px; */
 }
 .cfp_img{
-    height: 400px;
-    width: 400px ;
+    height: 380px;
+    width: 380px ;
 }
 
 /* body{
@@ -51,8 +62,8 @@ p strong{
 }
 
 .item{
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   background-color: white;
   position: relative;
   display: inline-block;

@@ -2,6 +2,9 @@
     /* border: 1px solid red; */
     padding: 20px;
 }
+.firstpage_heading{
+    font-family: Encode Sans;
+}
 .firstpage_container{
     display: flex;
     flex-direction: row;

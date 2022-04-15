@@ -11,24 +11,24 @@ const RightNav = ({ open }) => {
 		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>
-		<NavLink  to='/about' activeStyle>
-			About
+		<NavLink  to='/orginisingcommittee' activeStyle>
+			Organising Committee
 		</NavLink>
-		<NavLink to='/services' activeStyle>
-			Services
+		<NavLink to='/keynote-speakers' activeStyle>
+			Keynote Speakers
 		</NavLink>
-		<NavLink to='/contact' activeStyle>
-			Contact
+		<NavLink to='/callforpapers' activeStyle>
+			Call for Papers
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
-			Sign-Up
+		<NavLink to='/local-arrangements' activeStyle>
+			Local Arrangements
 		</NavLink>
-		<NavLink to='/login' activeStyle>
+		{/* <NavLink to='/login' activeStyle>
 			Login
 		</NavLink>
         <NavLink to='/privacy' activeStyle>
 			Privacy
-		</NavLink>
+		</NavLink> */}
 	</NavMenu>
   )
 }
