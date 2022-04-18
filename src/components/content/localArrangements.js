@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/content_css/local_arrangement.css";
 import PageBanner from "../common/pageBanner";
+import Table from "react-bootstrap/Table";
 
 const LocalArrangements = () => {
   return (
@@ -61,6 +62,7 @@ const Aboutcuh = () => {
       <div className="how_to_reach">
         <h1 className="how_to_reach_head">How to Reach</h1>
         <iframe
+          title="map"
           className="map_how_to_reach"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.254799000932!2d76.13151241491661!3d28.35114528252978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39129577ce587a0b%3A0xbdc1de187d4dccf9!2sCentral%20University%20of%20Haryana!5e0!3m2!1sen!2sin!4v1649757682279!5m2!1sen!2sin"
         />
@@ -83,7 +85,61 @@ const Aboutcuh = () => {
           railway station.
         </p>
         <h3 className="bytrain">The time table is given below:-</h3>
-        
+        <div className="train_table">
+          <Table className="table" striped bordered hover size="sm">
+            <thead>
+              <tr className="table_row">
+                <th className="table_head" colSpan={6}>Trains from Delhi to Mahendergarh</th>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Train Name</th>
+                <th>Train Number</th>
+                <th>Sarai Rohilla , Delhi (Timing)</th>
+                <th>Delhi Cantonment (Timing)</th>
+                <th>Mahendergarh (Timing)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowSpan={2}>morning</td>
+                <td>Salasar Super fast</td>
+                <td>22421</td>
+                <td>7:05 am</td>
+                <td>7:24 am</td>
+                <td>9:30 am</td>
+              </tr>
+              <tr>
+              {/* <td>morning</td> */}
+                <td>Bikaner Intercity</td>
+                <td>22472</td>
+                <td>8:40 am</td>
+                <td>8:59 am</td>
+                <td>11:30 am</td>
+              </tr>
+              <tr>
+                <td  rowSpan={2}>Night</td>
+                {/* <td colSpan={2}>Larry the Bird</td> */}
+                <td>Delhi Jodhpur Superfast</td>
+                <td>22482</td>
+                <td>11:15 pm</td>
+                <td>11:32 pm</td>
+                <td>1:22 pm</td>
+              </tr>
+              <tr>
+                {/* <td>Evening</td> */}
+                {/* <td colSpan={2}>Larry the Bird</td> */}
+                <td>Delhi Bikaner Superfast Express</td>
+                <td>22457</td>
+                <td>11:35 pm</td>
+                <td>11:54 pm</td>
+                <td>1:44 pm</td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
       </div>
     </>
   );

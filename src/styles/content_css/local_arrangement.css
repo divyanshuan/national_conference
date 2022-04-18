@@ -3,38 +3,45 @@
 .about_haryana{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 30px;
+    font-weight: 800;
     background-color: #F2F2F2;
     /* border: 1px solid red; */
 }
 .p-about-haryana{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .location_haryana{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     color: #444444;
 }
 .p-location_haryana{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .aboutcuh_head{
+    font-size: 30px;
+    font-weight: 800;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 .p_aboutcuh{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .about_dept{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     color: #444444;
 }
 .how_to_reach{
+
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -44,9 +51,24 @@
     height: 50vh;
     width: 85%;
 }
+.map_how_to_reach:hover{
+    /* height: 52vh;
+    width: 86%;
+    transform: scale(1.1); */
+    transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+
+}
 .how_to_reach_head{
-    align-items: left;
-    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 /*for table*/
+.table_head{
+    text-align: center;
+    color: #4f524a;
+}
+.table_row{
+    background-color: #9FC088;
+}
