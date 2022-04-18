@@ -7,7 +7,7 @@ const LocalArrangements = () => {
   return (
     <>
       <PageBanner pageTitle="Local Arrangements" />
-      <div className="keynote-main-about">
+      <div className="local-main-about">
         <h1 className="about_haryana"> About Haryana </h1>
         <p className="p-about-haryana">
           The state is rich in history, monuments, heritage, flora and fauna and
