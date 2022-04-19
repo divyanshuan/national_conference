@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header/header";
+// import Header from "./components/header/header";
 import Home from "./components/body/home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CallForPapers from "./components/content/callforpapers";
@@ -12,32 +12,34 @@ import Navbar from "./components/header/navbar";
 const App = () => {
   return (
     <div className="App">
-    <div className="header-container"> 
-      <Navbar />
-    </div>
+      <div className="header-container">
+        <Navbar />
+      </div>
 
-      <Router>
-        {/* <div className="router-container"><Tab /></div> */}
-        <Switch>
-          <div className="home-container">
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/orginisingcommittee">
-              <Orginisingcommittee/>
-            </Route>
-            <Route exact path="/callforpapers">
-              <CallForPapers />
-            </Route>
-            <Route exact path="/keynote-speakers">
-              <KeyNoteSpeakers />
-            </Route>
-            <Route exact path="/local-arrangements">
-              <LocalArrangements />
-            </Route>
-          </div>
-        </Switch>
-      </Router>
+      <div className="router-part">
+        <Router>
+          <Switch>
+            <div className="home-container">
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/orginisingcommittee">
+                <Orginisingcommittee />
+              </Route>
+              <Route exact path="/callforpapers">
+                <CallForPapers />
+              </Route>
+              <Route exact path="/keynote-speakers">
+                <KeyNoteSpeakers />
+              </Route>
+              <Route exact path="/local-arrangements">
+                <LocalArrangements />
+              </Route>
+            </div>
+          </Switch>
+        </Router>
+      </div>
+
       <Footer />
     </div>
   );

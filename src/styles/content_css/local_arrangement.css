@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .local-main-about{
-    /* width: 80%;
-    display: flex;
-    align-items: center; */
-    /* padding: 2%; */
+    width: 80%;
+    margin: 1rem auto;
+    /* display: flex;
+    align-items: center;  */
 }
 .about_haryana{
     font-family: 'Montserrat', sans-serif;

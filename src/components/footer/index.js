@@ -45,7 +45,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-          <p>Copyright @ 2022 Created and Maintained by <a href="https://abhishek-rao-portfolio.herokuapp.com/">Abhishek Rao</a></p>
+        <p>Copyright @ 2022</p>
+          {/* <p>Copyright @ 2022 Created and Maintained by <a href="https://abhishek-rao-portfolio.herokuapp.com/">Abhishek Rao</a></p> */}
         </div>
       </div>
     </>

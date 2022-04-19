@@ -48,6 +48,7 @@
 .newsletter{
     width: 30%;
 }
+
 .input{
     background: none;
     border: 2px solid #fff;
@@ -80,7 +81,7 @@
     /* border: 1px solid red; */
 }
 .copyright p{
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
 
@@ -103,5 +104,8 @@
     .join-button{
         width: 89%;
         margin-top: 10px;
+    }
+    .newsletter ul li{
+        font-size: 0.9rem;
     }
 }

@@ -14,15 +14,15 @@ const LocalArrangements = () => {
           tourism, with a well developed economy, national highways and state
           roads.
         </p>
-        <h3 className="location_haryana"> Location</h3>
+        <h3 className="location_haryana">Location</h3>
         <p className="p-location_haryana">
           Haryana surrounds the country's capital New Delhi on three sides
           (north, west and south), consequently a large area of Haryana state is
           included in the economically important National Capital Region of
           India for the purposes of planning and development.
         </p>
-      </div>
       <Aboutcuh />
+      </div>
     </>
   );
 };
