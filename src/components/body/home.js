@@ -1,7 +1,5 @@
 import React from "react";
 import "../../styles/home.css";
-// import bgVideo from "../../assets/sample video.mp4"
-// import CallForPapers from "../content/callforpapers";
 import Firstpage from "../content/firstpage";
 import Bar from "./bar";
 

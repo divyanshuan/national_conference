@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/content_css/orginisingcommittee.css";
-import patronimg from "../../assets/download.png";
+// import patronimg from "../../assets/download.png";
 import PageBanner from "../common/pageBanner";
 import data from "./orginisingcommitteedetail.json";
 
