@@ -14,7 +14,7 @@ const LocalArrangements = () => {
           tourism, with a well developed economy, national highways and state
           roads.
         </p>
-        <h3 className="location_haryana">Location</h3>
+        <h3 className="location_haryana"> Location</h3>
         <p className="p-location_haryana">
           Haryana surrounds the country's capital New Delhi on three sides
           (north, west and south), consequently a large area of Haryana state is
@@ -89,7 +89,9 @@ const Aboutcuh = () => {
           <Table className="table" striped bordered hover size="sm">
             <thead>
               <tr className="table_row">
-                <th className="table_head" colSpan={6}>Trains from Delhi to Mahendergarh</th>
+                <th className="table_head" colSpan={6}>
+                  Trains from Delhi to Mahendergarh
+                </th>
               </tr>
             </thead>
             <thead>
@@ -112,7 +114,7 @@ const Aboutcuh = () => {
                 <td>9:30 am</td>
               </tr>
               <tr>
-              {/* <td>morning</td> */}
+                {/* <td>morning</td> */}
                 <td>Bikaner Intercity</td>
                 <td>22472</td>
                 <td>8:40 am</td>
@@ -120,7 +122,7 @@ const Aboutcuh = () => {
                 <td>11:30 am</td>
               </tr>
               <tr>
-                <td  rowSpan={2}>Night</td>
+                <td rowSpan={2}>Night</td>
                 {/* <td colSpan={2}>Larry the Bird</td> */}
                 <td>Delhi Jodhpur Superfast</td>
                 <td>22482</td>
@@ -137,8 +139,31 @@ const Aboutcuh = () => {
                 <td>11:54 pm</td>
                 <td>1:44 pm</td>
               </tr>
+              <tr>
+                <td colSpan={6}>
+                  * Schedule may change, please check
+                  <a href="https://www.irctc.co.in/nget/train-search">
+                    www.irctc.co.in
+                  </a>
+                </td>
+              </tr>
             </tbody>
           </Table>
+        </div>
+        <div className="by_road">
+          <h3 className="byroad_head"> By Road</h3>
+          <p className="p_byroad">
+            While coming from Delhi or Gurugram (Distance-125Kms.), come through
+            NH-08 and after crossing Dharuhera, turn right for Rewari and then
+            take the Mahendergarh road and after reaching Mahendergarh travel 8
+            kms. towards Charkhi Dadri and then you will find CUH Gate No.1on
+            Road. From there you can reach University Academic Block &
+            Administration Block. If you are coming from Jaipur
+            (Distance-190Kms.), then reach Mahendergarh via Behror and then
+            Narnaul. Those coming via Rohtak, may reach University via Charkhi
+            Dadri as University is at the distance of just 27Kms. from
+            CharkhiDadri on Mahendergarh Road.
+          </p>
         </div>
       </div>
     </>

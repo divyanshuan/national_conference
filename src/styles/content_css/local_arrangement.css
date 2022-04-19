@@ -4,8 +4,7 @@
     margin: 1rem auto;
     /* display: flex;
     align-items: center;  */
-}
-.about_haryana{
+}.about_haryana{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -67,6 +66,34 @@
 .how_to_reach_head{
     font-size: 30px;
     font-weight: 700;
+}
+.byair_head{
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444; 
+}
+.P_byair{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+}
+.bytrain{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444444; 
+
+}
+.byroad_head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444; 
+}
+.p_byroad{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 /*for table*/
