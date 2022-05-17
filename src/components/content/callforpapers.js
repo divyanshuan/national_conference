@@ -66,8 +66,7 @@ const CallForPapers = () => {
     },
     {
       topic: "Energy for agriculture and rural development",
-      imgUrl:
-        "https://img.saurenergy.com/2016/12/solar-pumps.jpg",
+      imgUrl: "https://img.saurenergy.com/2016/12/solar-pumps.jpg",
       subTopics: [
         "Solar pump sets",
         "Nanogrids for remote villages",
@@ -78,7 +77,8 @@ const CallForPapers = () => {
     },
     {
       topic: "Advanced Power Converters",
-      imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7y34ws8zSAvG2vsE-V8Qoeg3AKAfjPyz8j9cE9FajvQ15X2vjF-vFl8I9YtR3ogFb-U&usqp=CAU",
+      imgUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7y34ws8zSAvG2vsE-V8Qoeg3AKAfjPyz8j9cE9FajvQ15X2vjF-vFl8I9YtR3ogFb-U&usqp=CAU",
       subTopics: [
         "New Power Converters",
         "Converter Topologies",
@@ -91,7 +91,8 @@ const CallForPapers = () => {
     },
     {
       topic: "Renewable Energy Sources",
-      imgUrl: "https://www.ways2gogreenblog.com/wp-content/uploads/2016/07/renewable_resources.gif",
+      imgUrl:
+        "https://www.ways2gogreenblog.com/wp-content/uploads/2016/07/renewable_resources.gif",
       subTopics: [
         "Renewable Energy Sources and Technology",
         "Solar/Wind Energy Systems and Its Integration",
@@ -141,7 +142,7 @@ const CallForPapers = () => {
                     </div>
                   </div>
                   <Button
-                    className="button"
+                    className="button m-2"
                     color="danger"
                     onClick={() => {
                       setShow(true);

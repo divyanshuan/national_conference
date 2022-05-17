@@ -1,0 +1,55 @@
+/* for  paper submission  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.papersubmission_main{
+    width: 80%;
+    margin: 1rem auto;
+    /* display: flex;
+    align-items: center;  */
+}
+.head_author,.head_workinglan{    
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}   
+.para_author,.para_workinglan{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.link_paersub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #F2F2F2;
+    width: 30%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+
+
+/* anchor tag */
+.atag{
+    text-decoration: none;
+}
+
+
+/* for fee and online regestration */
+.feeandonline_main{
+    width: 80%;
+    margin: 1rem auto;
+}
+.para_feeandonline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.head_feeandonline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #F2F2F2;
+    width: 30%;
+    margin: auto;
+}

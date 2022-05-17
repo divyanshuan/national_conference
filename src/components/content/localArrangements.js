@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/content_css/local_arrangement.css";
 import PageBanner from "../common/pageBanner";
 import Table from "react-bootstrap/Table";
+import PaperSubmission from "./papersubmission";
 
 const LocalArrangements = () => {
   return (
@@ -21,8 +22,14 @@ const LocalArrangements = () => {
           included in the economically important National Capital Region of
           India for the purposes of planning and development.
         </p>
-      <Aboutcuh />
+        <h3 className="head_weather"> Weather</h3>
+        <p className="para_weather">
+          The weather in Mahendergarh during the second half of October month is
+          generally very pleasant with a temperature of 26-30 degree Celsius.
+        </p>
+        <Aboutcuh />
       </div>
+      <PaperSubmission />
     </>
   );
 };
@@ -86,7 +93,7 @@ const Aboutcuh = () => {
         </p>
         <h3 className="bytrain">The time table is given below:-</h3>
         <div className="train_table">
-          <Table className="table" striped bordered hover size="sm">
+          <Table responsive className="table" striped bordered hover size="sm">
             <thead>
               <tr className="table_row">
                 <th className="table_head" colSpan={6}>
