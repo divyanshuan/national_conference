@@ -10,7 +10,7 @@ const KeyNoteSpeakers = () => {
       />
       <div className="keynote-main-container">
        <h1>
-          Coming Soon......
+          Will be updated Soon......
        </h1>
       </div>
     </>

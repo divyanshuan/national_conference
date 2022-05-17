@@ -20,6 +20,7 @@
 .committee-container .member_img{
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 .committee-container .member_head{
     text-align: center;
