@@ -15,14 +15,14 @@
   margin: 100px auto 20px;
   font-size: 50px;
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
-  font-family: "Merriweather", serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .main_content .ssteps {
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   font-size: 50px;
   margin: 0px;
   font-weight: 700;
-  font-family: "Merriweather", serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .main_content .date {
   font-weight: 600;
@@ -30,12 +30,6 @@
   font-size: 30px;
   margin: 10px;
   color: #fff;
-  font-weight: 800;
-}
-.main_content .venue {
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
-  font-size: 30px;
-  margin: 10px;
   font-weight: 800;
 }
 

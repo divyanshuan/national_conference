@@ -20,10 +20,16 @@
   width: 20%;
   text-align: center;
 }
+.logo-img{
+  width:80%;
+}
 .paragra {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   display: flex;
   font-size: 20px;
   width: 60%;
+  text-align: justify;
 }
 
 /* ipad devices  */
