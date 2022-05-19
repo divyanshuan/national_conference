@@ -1,17 +1,28 @@
 import React from "react";
 import "../../styles/content_css/firstpage.css";
 import cuhlogo from "../../assets/cuh-logo.png";
+import img1 from "../../assets/Images/cuh_1.jpeg";
+import img2 from "../../assets/Images/cuh_2.jpeg";
+import img3 from "../../assets/Images/cuh_3.jpeg";
+import img4 from "../../assets/Images/cuh_4.jpeg";
+import img5 from "../../assets/Images/cuh_5.jpeg";
+import img6 from "../../assets/Images/cuh_6.jpeg";
+import img7 from "../../assets/Images/cuh_7.jpeg";
+import img8 from "../../assets/Images/cuh_8.jpeg";
 const Firstpage = () => {
   return (
     <>
       <div className="firstpage">
-        <h1 className="firstpage_heading">SSTEPS - 2022</h1>
+
         <div className="firstpage_container">
           <div className="spons1">
             {" "}
             <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
           </div>
+
           <div className="paragra">
+        <h1 className="firstpage_heading">SSTEPS - 2022</h1>
+
             <p>
               The 1st International Conference on Smart and Sustainable
               Technologies in Energy and Power Sectors (SSTEPS-2022) is being
@@ -35,6 +46,21 @@ const Firstpage = () => {
           <div className="spons2">
             {" "}
             <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
+          </div>
+        </div>
+        <div class="life_cuh">
+          <h1>Glimpses of Central University of Haryana (CUH)</h1>
+          <div class="cuh_imgs">
+            <marquee>
+              <img src={img1} alt="" />
+              <img src={img2} alt="" />
+              <img src={img3} alt="" />
+              <img src={img4} alt="" />
+              <img src={img5} alt="" />
+              <img src={img6} alt="" />
+              <img src={img7} alt="" />
+              <img src={img8} alt="" />
+            </marquee>
           </div>
         </div>
       </div>

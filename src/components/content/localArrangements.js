@@ -9,7 +9,7 @@ const LocalArrangements = () => {
     <>
       <PageBanner pageTitle="Local Arrangements" />
       <div className="local-main-about">
-        <h1 className="about_haryana"> About Haryana </h1>
+        {/* <h1 className="about_haryana"> About Haryana </h1>
         <p className="p-about-haryana">
           The state is rich in history, monuments, heritage, flora and fauna and
           tourism, with a well developed economy, national highways and state
@@ -26,7 +26,7 @@ const LocalArrangements = () => {
         <p className="para_weather">
           The weather in Mahendergarh during the second half of October month is
           generally very pleasant with a temperature of 26-30 degree Celsius.
-        </p>
+        </p> */}
         <Aboutcuh />
       </div>
       <PaperSubmission />
@@ -39,8 +39,8 @@ const Aboutcuh = () => {
   return (
     <>
       <div className="Aboutcuh_main">
-        <h1 className="aboutcuh_head">About Central University of Haryana</h1>
-        <p className="p_aboutcuh">
+        {/* <h1 className="aboutcuh_head">About Central University of Haryana</h1> */}
+        {/* <p className="p_aboutcuh">
           Central University of Haryana which has been awarded 'A' grade by the
           National Assessment and Accreditation Council (NAAC), is continuously
           developing its capabilities. The university is on the path of
@@ -64,7 +64,7 @@ const Aboutcuh = () => {
           India as shown by Prime Minister Shri Narendra Modi.
         </p>
         <h2 className="about_dept"> About Depatrtment</h2>
-        <p className="p_about_dept">Comming soon......</p>
+        <p className="p_about_dept">Comming soon......</p> */}
       </div>
       <div className="how_to_reach">
         <h1 className="how_to_reach_head">How to Reach</h1>

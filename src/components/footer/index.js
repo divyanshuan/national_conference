@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="box newsletter">
-            <p>Important Dates</p>
+            <h3>Important Dates</h3>
             <ul>
               <li>Submission paper:</li>
               <li>Paper Submission Deadline: 31 Aug. 2022</li>

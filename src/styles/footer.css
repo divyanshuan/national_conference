@@ -3,11 +3,12 @@
   font-family: "Times New Roman", Times, serif;
 }
 .footer {
-  height: 40vh;
+  height: 42vh;
   background: #112b3c;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-top: 6px solid #011727;
 }
 .box {
   width: 20%;
@@ -19,12 +20,17 @@
   flex-direction: column;
   /* align-items: center; */
 }
+.contact-box{
+  border-right: 3px solid white;
+
+}
 .contact-box p {
   line-height: 40px;
   font-size: 15px;
 }
 .box p {
   line-height: 30px;
+  /* font-size: 20px; */
 }
 .box .social-media {
   width: 100px;
@@ -47,7 +53,9 @@
 }
 .newsletter {
   width: 30%;
+  
 }
+
 
 .input {
   background: none;

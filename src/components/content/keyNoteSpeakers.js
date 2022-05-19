@@ -9,9 +9,11 @@ const KeyNoteSpeakers = () => {
         pageTitle="Keynote Speakers"
       />
       <div className="keynote-main-container">
-       <h1>
-          Will be updated Soon......
-       </h1>
+        <marquee>
+        <h1>
+            Will be updated Soon......
+        </h1>
+        </marquee>
       </div>
     </>
   );

@@ -10,12 +10,12 @@ import "../../../node_modules/swiper/swiper.min.css";
 const Bar =()=> {
   return (
     <div className="bar">
-      <div className="container">
+      <div className="q-container">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 5500,
             disableOnInteraction: false,
           }}
           // pagination={{

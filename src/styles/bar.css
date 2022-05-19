@@ -1,11 +1,15 @@
-
-.container {
+.bar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.q-container {
   height: 8vh;
-  width: 99%;
+  width: 90%;
   border-radius: 1rem;
-  background-color: #1e3081;
-  margin: 1% auto;
-  box-shadow: 2.5px 2.5px 3px #000;
+  background-color: #5b676b;
+  margin: 1% 0px;
+  box-shadow: 2.5px 2.5px 3px rgba(0, 0, 0, 0.566);
 }
 .quote {
   width: 100%;
@@ -23,7 +27,7 @@
 }
 /* mobile devices  */
 @media only screen and (min-device-width: 0px) and (max-device-width: 435px) {
-  .container {
+  .q-container {
     height: 9vh;
     width: 99%;
     border-radius: 1rem;
@@ -47,7 +51,7 @@
 }
 /* ipad devices */
 @media only screen and (min-device-width: 760px) and (max-device-width: 1024px) {
-  .container {
+  .q-container {
     height: 8vh;
     width: 99%;
     border-radius: 1rem;
