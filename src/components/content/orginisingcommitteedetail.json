@@ -360,14 +360,46 @@
     }
 ],
 "Webadministrator":[
-    {
-        "name":"Ms. Sangeetha",
-        "role":"",
-        "department":"Dept. of Computer Science and Engineering, SOET",
-        "collage":"Central University of Haryana",
-        "location":"India",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
-    }
+  {
+    "name": "Mr. Ajay Singh",
+    "role": "",
+    "department": "",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Divyanshu Verma",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Hari Kiran Kante",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Ajay Kumar Daki",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Allu Vishnu Vardhan Reddy",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  }
 ],
 "Localorganizationcommittee":[
 
@@ -586,30 +618,78 @@
   }
 ],
 "Studentco-ordinator":[
-    {         
-    "name":"Sairaj Arndakar",
-    "role":"Research Scholar",
-    "department":"Dept. of Electrical Engineering, SOET",
-    "collage":"Central University of Haryana",
-    "location":"India",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
-    },
-    {         
-    "name":"Rahul Kumar",
-    "role":"Research Scholar",
-    "department":"Dept. of Electrical Engineering, SOET",
-    "collage":"Central University of Haryana",
-    "location":"India",
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
-    },
-    {
-        "name":"Abhishek Rao",
-        "role":"",
-        "department":"Dept. of Computer Science and Engineering, SOET",
-        "collage":"Central University of Haryana",
-        "location":"India",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
-    }
+  {
+    "name": "Er. Sairaj Arandakar",
+    "role": "Student",
+    "department": "Research Scholar",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"8008400263"
+  },
+  {
+    "name": "Er. Rahul",
+    "role": "Student",
+    "department": "Research Scholar",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"8307475959"
+  },
+  {
+    "name": "Er. S. Francis Livinraj",
+    "role": "Student",
+    "department": "Department of Electrical Engg",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"7013551210"
+  },
+  {
+    "name": "Er. Anirudh Pragallapati",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9505049169"
+  },
+  {
+    "name": "Er. T. Vamsi krishna",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"8688052185"
+  },
+  {
+    "name": "Er. K. Puneeth sai",
+    "role": "Student",
+    "department": "Department of PPT",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"7842377124"
+  },
+  {
+    "name": "Er. Rakesh",
+    "role": "Student",
+    "department": "Department of PPT",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9515534045"
+  },
+  {
+    "name": "Er. P. Sai Ganesh",
+    "role": "Student",
+    "department": "Department of Electrical Engg",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9390193736"
+  }
 
 ],
 "Keynotespeakers":[

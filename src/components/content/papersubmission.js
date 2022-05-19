@@ -6,7 +6,7 @@ import Table from "react-bootstrap/Table";
 const PaperSubmission = () => {
   return (
     <>
-      {/* <PageBanner pageTitle="Paper Submission" />
+      <PageBanner pageTitle="Paper Submission" />
       <div className="papersubmission_main">
         <h3 className="head_author"> Author's Guidelines</h3>
         <p className="para_author">
@@ -33,7 +33,7 @@ const PaperSubmission = () => {
           </a>
         </h3>
       </div>
-      <FeeandOnlineReg /> */}
+      <FeeandOnlineReg />
     </>
   );
 };
@@ -44,9 +44,7 @@ const FeeandOnlineReg = () => {
     <>
       <PageBanner pageTitle="Fee and Online Registration" />
       <div className="feeandonline_main">
-        <div className="table_feeandonline">
-          
-        </div>
+        <div className="table_feeandonline"></div>
         <div className="feeandonline-body">
           <p className="para_feeandonline">
             Additional paper discount is applicable only for regular authors.

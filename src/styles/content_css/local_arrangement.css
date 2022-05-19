@@ -75,30 +75,35 @@
 .byair_head{
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     color: #444444; 
+    margin-top:2rem;
 }
 .P_byair{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; 
+    text-align: justify; 
+
 }
 .bytrain{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #444444; 
+    color: #444444;
 
 }
 .byroad_head{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     color: #444444; 
+    margin-top: 1rem;
 }
 .p_byroad{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
 
 /*for table*/
@@ -108,4 +113,11 @@
 }
 .table_row{
     background-color: #9FC088;
+}
+
+.commitee-mem{
+    padding: 0.7rem 4rem;
+}
+.commitee-mem h2{
+    font-size: 30px;
 }

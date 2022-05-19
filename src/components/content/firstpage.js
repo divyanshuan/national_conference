@@ -9,6 +9,7 @@ import img5 from "../../assets/Images/cuh_5.jpeg";
 import img6 from "../../assets/Images/cuh_6.jpeg";
 import img7 from "../../assets/Images/cuh_7.jpeg";
 import img8 from "../../assets/Images/cuh_8.jpeg";
+import cuh_vid from "../../assets/video/cuh_logo_vid.mp4";
 const Firstpage = () => {
   return (
     <>
@@ -42,7 +43,10 @@ const Firstpage = () => {
 
           <div className="spons2">
             {" "}
-            <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
+            {/* <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "} */}
+            <video autoPlay muted loop>
+              <source src={cuh_vid}></source>
+            </video>
           </div>
         </div>
         <div class="life_cuh">

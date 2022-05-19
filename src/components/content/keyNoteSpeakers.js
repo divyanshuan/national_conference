@@ -5,14 +5,10 @@ import PageBanner from "../common/pageBanner";
 const KeyNoteSpeakers = () => {
   return (
     <>
-      <PageBanner
-        pageTitle="Keynote Speakers"
-      />
+      <PageBanner pageTitle="Keynote Speakers" />
       <div className="keynote-main-container">
         <marquee>
-        <h1>
-            Will be updated Soon......
-        </h1>
+          <h1>Will be updated soon......</h1>
         </marquee>
       </div>
     </>
