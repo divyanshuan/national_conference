@@ -3,11 +3,54 @@ import "../../styles/content_css/local_arrangement.css";
 import PageBanner from "../common/pageBanner";
 import Table from "react-bootstrap/Table";
 import PaperSubmission from "./papersubmission";
+import data from "../content/orginisingcommitteedetail.json";
 
 const LocalArrangements = () => {
   return (
     <>
       <PageBanner pageTitle="Local Arrangements" />
+      {/* <div className="local-organizing-committee commitee-mem">
+        <h2>Local Organizing Committee</h2>
+        <hr />
+        <ul>
+          {data.Localorganizationcommittee.map((el) => {
+            return (
+              <li>
+                <span>{el.name}</span>, <span>{el.collage}</span>,{" "}
+                <span>{el.location}</span>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <div className="web-administartor commitee-mem">
+        <h2>Web Administartor </h2>
+        <hr />
+        <ul>
+          {data.Webadministrator.map((el) => {
+            return (
+              <li>
+                <span>{el.name}</span>, <span>{el.collage}</span>,{" "}
+                <span>{el.location}</span>
+              </li>
+            );
+          })}
+        </ul>
+      </div> */}
+      <div className="student-co-ordinators commitee-mem">
+        <h2>Student Co-ordinators</h2>
+        <hr />
+        <ul>
+          {data["Studentco-ordinator"].map((el) => {
+            return (
+              <li>
+                <span>{el.name}</span>, <span>{el.department}</span>,{" "}
+                <span>{el.collage}</span>, <span>Contact: {el.contact}</span>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
       <div className="local-main-about">
         {/* <h1 className="about_haryana"> About Haryana </h1>
         <p className="p-about-haryana">
@@ -29,7 +72,7 @@ const LocalArrangements = () => {
         </p> */}
         <Aboutcuh />
       </div>
-      <PaperSubmission />
+      {/* <PaperSubmission /> */}
     </>
   );
 };
@@ -38,9 +81,9 @@ export default LocalArrangements;
 const Aboutcuh = () => {
   return (
     <>
-      <div className="Aboutcuh_main">
-        {/* <h1 className="aboutcuh_head">About Central University of Haryana</h1> */}
-        {/* <p className="p_aboutcuh">
+      {/* <div className="Aboutcuh_main">
+        <h1 className="aboutcuh_head">About Central University of Haryana</h1>
+        <p className="p_aboutcuh">
           Central University of Haryana which has been awarded 'A' grade by the
           National Assessment and Accreditation Council (NAAC), is continuously
           developing its capabilities. The university is on the path of
@@ -64,8 +107,8 @@ const Aboutcuh = () => {
           India as shown by Prime Minister Shri Narendra Modi.
         </p>
         <h2 className="about_dept"> About Depatrtment</h2>
-        <p className="p_about_dept">Comming soon......</p> */}
-      </div>
+        <p className="p_about_dept">Comming soon......</p>
+      </div> */}
       <div className="how_to_reach">
         <h1 className="how_to_reach_head">How to Reach</h1>
         <iframe

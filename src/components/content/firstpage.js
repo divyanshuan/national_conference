@@ -9,11 +9,11 @@ import img5 from "../../assets/Images/cuh_5.jpeg";
 import img6 from "../../assets/Images/cuh_6.jpeg";
 import img7 from "../../assets/Images/cuh_7.jpeg";
 import img8 from "../../assets/Images/cuh_8.jpeg";
+import cuh_vid from "../../assets/video/cuh_logo_vid.mp4";
 const Firstpage = () => {
   return (
     <>
       <div className="firstpage">
-
         <div className="firstpage_container">
           <div className="spons1">
             {" "}
@@ -21,7 +21,7 @@ const Firstpage = () => {
           </div>
 
           <div className="paragra">
-        <h1 className="firstpage_heading">SSTEPS - 2022</h1>
+            <h1 className="firstpage_heading">SSTEPS - 2022</h1>
 
             <p>
               The 1st International Conference on Smart and Sustainable
@@ -45,7 +45,10 @@ const Firstpage = () => {
 
           <div className="spons2">
             {" "}
-            <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
+            {/* <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "} */}
+            <video autoPlay muted loop>
+              <source src={cuh_vid}></source>
+            </video>
           </div>
         </div>
         <div class="life_cuh">
