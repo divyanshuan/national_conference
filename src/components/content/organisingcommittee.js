@@ -63,7 +63,7 @@ const Orginisingcommittee = () => {
               <h3 className="member_head">{person.name}</h3>
               <p className="member_role">General Chair</p>
               <div className="underline"></div>
-              <div className="member_role">{person.role}</div>
+              {/* <div className="member_role">{person.role}</div> */}
               <div className="member_role">{person.department}</div>
               <div className="member_role">{person.collage}</div>
               <div className="member_role">{person.location}</div>
@@ -112,70 +112,7 @@ const Orginisingcommittee = () => {
           </>
         ))}
       </div>
-      {/* <div className="committee-main-container">
-        {data.organisingcosecretry.map((person) => (
-          <>
-            <div className="committee-container">
-              <img
-                className="member_img"
-                src={person.image}
-                alt="patronimage"
-              />
-              <h3 className="member_head">{person.name}</h3>
-              <p className="member_role">Organizing Co-Secretary</p>
-              <div className="underline"></div>
-              <div className="member_role">{person.role}</div>
-              <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
-            </div>
-          </>
-        ))}
-      </div> */}
-
       <div className="committee-main-container">
-        {data.Technicalprogramcommitteechair.map((person) => (
-          <>
-            <div className="committee-container">
-              {/* <img
-                className="member_img"
-                src={person.image}
-                alt="patronimage"
-              /> */}
-              <h3 className="member_head">{person.name}</h3>
-              <p className="member_role">Technical Program Committee Chair</p>
-              <div className="underline"></div>
-              <div className="member_role">{person.role}</div>
-              <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
-            </div>
-          </>
-        ))}
-      </div>
-
-      <div className="committee-main-container">
-        {data.Technicalprogramcommitteemembers.map((person) => (
-          <>
-            <div className="committee-container">
-              {/* <img
-                className="member_img"
-                src={person.image}
-                alt="patronimage"
-              /> */}
-              <h3 className="member_head">{person.name}</h3>
-              <p className="member_role">Technical Program Committee Member</p>
-              <div className="underline"></div>
-              <div className="member_role">{person.role}</div>
-              <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
-            </div>
-          </>
-        ))}
-      </div>
-
-      {/* <div className="committee-main-container">
         {data.Organizingsecretary.map((person) => (
           <>
             <div className="committee-container">
@@ -194,7 +131,138 @@ const Orginisingcommittee = () => {
             </div>
           </>
         ))}
-      </div> */}
+      </div>
+      <div className="committee-main-container">
+        {data.organisingcosecretry.map((person) => (
+          <>
+            <div className="committee-container">
+              <img
+                className="member_img"
+                src={person.image}
+                alt="patronimage"
+              />
+              <h3 className="member_head">{person.name}</h3>
+              <p className="member_role">Organizing Co-Secretary</p>
+              <div className="underline"></div>
+              <div className="member_role">{person.role}</div>
+              <div className="member_role">{person.department}</div>
+              <div className="member_role">{person.collage}</div>
+              <div className="member_role">{person.location}</div>
+            </div>
+          </>
+        ))}
+      </div>
+      <div className="member-namelist">
+        <div className="half-section1">
+          <div className="committee-main-containerz">
+            <h2>Technical program committee chair</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Technicalprogramcommitteechair.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+          <div className="committee-main-containerz">
+            <h2>Technical program committee members</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Technicalprogramcommitteemembers.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+        </div>
+        <div className="half-section2">
+          <div className="committee-main-containerz">
+            <h2>International Advisory Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Internationaladvisorycommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+          <div className="committee-main-containerz">
+            <h2>National Advisory Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.NationalAdvisoryCommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+          <div className="committee-main-containerz">
+            <h2>Publicity And Public Rrelations</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Publicityandpublicrelationschair.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+          <div className="committee-main-containerz">
+            <h2>Web Administrator</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Webadministrator.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+          <div className="committee-main-containerz">
+            <h2>Local Organization Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Localorganizationcommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+        </div>
+      </div>
 
       {/* <div className="committee-main-container">
         {data.Publicityandpublicrelationschair.map((person) => (
@@ -259,15 +327,15 @@ const Orginisingcommittee = () => {
         ))}
       </div>
         */}
-      <div className="committee-main-container">
+      {/* <div className="committee-main-container">
         {data.Internationaladvisorycommittee.map((person) => (
           <>
             <div className="committee-container">
-              {/* <img
+              <img
                 className="member_img"
                 src={person.image}
                 alt="patronimage"
-              /> */}
+              />
               <h3 className="member_head">{person.name}</h3>
               <p className="member_role">International Advisory Committee</p>
               <div className="underline"></div>
@@ -278,7 +346,7 @@ const Orginisingcommittee = () => {
             </div>
           </>
         ))}
-      </div>
+      </div> */}
       {/*
 
       <div className="committee-main-container">

@@ -19,11 +19,9 @@ const Firstpage = () => {
             {" "}
             <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
           </div>
-
           <div className="paragra">
             <h1 className="firstpage_heading">SSTEPS - 2022</h1>
-
-            <p>
+            <p className="text-part">
               The 1st International Conference on Smart and Sustainable
               Technologies in Energy and Power Sectors (SSTEPS-2022) is being
               organized by the Department of Electrical Engineering, School of

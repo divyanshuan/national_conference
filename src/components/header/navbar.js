@@ -34,7 +34,7 @@ const Navbar = () => {
 
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
+              <GiHamburgerMenu className="humburger-icon" />
             </a>
           </div>
       </nav>
