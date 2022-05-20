@@ -44,7 +44,7 @@ const Firstpage = () => {
           <div className="spons2">
             {" "}
             {/* <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "} */}
-            <video autoPlay muted loop>
+            <video className="logo_vid" autoPlay muted loop>
               <source src={cuh_vid}></source>
             </video>
           </div>

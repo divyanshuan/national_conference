@@ -18,7 +18,9 @@ const Footer = () => {
           </div>
           <div className="box">
             <h2>Contact</h2>
-            <p>Tel: +91 9550944396 <br/> +91 9704638836 </p>
+            <p>
+              Tel: +91 9550944396 <br /> +91 9704638836{" "}
+            </p>
             <p>Email: ssteps2022@gmail.com</p>
             <div className="social-media">
               <a className="icon" href="/">
@@ -45,10 +47,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-        <p>Copyright @ 2022</p>
+          <p>Copyright @ 2022</p>
           {/* <p>Copyright @ 2022 Created and Maintained by <a href="https://abhishek-rao-portfolio.herokuapp.com/">Abhishek Rao</a></p> */}
         </div>
-
       </div>
     </>
   );

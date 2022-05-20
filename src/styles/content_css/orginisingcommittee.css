@@ -93,4 +93,15 @@
     height: 50vh;
     width: 300px;
   }
+  .half-section1 {
+    width: 100%;
+  }
+  .half-section2 {
+    width: 100%;
+  }
+  .member-namelist {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
 }
