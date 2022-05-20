@@ -184,6 +184,21 @@ const Orginisingcommittee = () => {
               </>
             ))}
           </div>
+          <div className="committee-main-containerz">
+            <h2>Local Organization Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Localorganizationcommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
         </div>
         <div className="half-section2">
           <div className="committee-main-containerz">
@@ -235,21 +250,6 @@ const Orginisingcommittee = () => {
             <h2>Web Administrator</h2>
             <hr className="horizontal-line"></hr>
             {data.Webadministrator.map((person) => (
-              <>
-                <ul>
-                  <li>
-                    <div className="member_role">
-                      {person.name},<span> {person.collage}</span>
-                    </div>
-                  </li>
-                </ul>
-              </>
-            ))}
-          </div>
-          <div className="committee-main-containerz">
-            <h2>Local Organization Committee</h2>
-            <hr className="horizontal-line"></hr>
-            {data.Localorganizationcommittee.map((person) => (
               <>
                 <ul>
                   <li>
