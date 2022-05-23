@@ -9,7 +9,17 @@ import img5 from "../../assets/Images/cuh_5.jpeg";
 import img6 from "../../assets/Images/cuh_6.jpeg";
 import img7 from "../../assets/Images/cuh_7.jpeg";
 import img8 from "../../assets/Images/cuh_8.jpeg";
+import img9 from "../../assets/Images/cuh_9.jpg";
+import img10 from "../../assets/Images/cuh_10.jpg";
+import img11 from "../../assets/Images/cuh_11.jpg";
+import img12 from "../../assets/Images/cuh_12.jpg";
+import img13 from "../../assets/Images/cuh_13.jpg";
+import img14 from "../../assets/Images/cuh_14.jpg";
+import img15 from "../../assets/Images/cuh_15.jpg";
+import img16 from "../../assets/Images/cuh_16.jpeg";
+import img17 from "../../assets/Images/cuh_17.jpg";
 import cuh_vid from "../../assets/video/cuh_logo_vid.mp4";
+
 const Firstpage = () => {
   return (
     <>
@@ -52,7 +62,7 @@ const Firstpage = () => {
         <div class="life_cuh">
           <h1>Glimpses of Central University of Haryana (CUH)</h1>
           <div class="cuh_imgs">
-            <marquee>
+            <marquee scrollamount={7}>
               <img src={img1} alt="" />
               <img src={img2} alt="" />
               <img src={img3} alt="" />
@@ -61,6 +71,15 @@ const Firstpage = () => {
               <img src={img6} alt="" />
               <img src={img7} alt="" />
               <img src={img8} alt="" />
+              <img src={img9} alt="" />
+              <img src={img10} alt="" />
+              <img src={img11} alt="" />
+              <img src={img12} alt="" />
+              <img src={img13} alt="" />
+              <img src={img14} alt="" />
+              <img src={img15} alt="" />
+              <img src={img16} alt="" />
+              <img src={img17} alt="" />
             </marquee>
           </div>
         </div>
