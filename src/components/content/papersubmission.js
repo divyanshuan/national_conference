@@ -2,12 +2,21 @@ import React from "react";
 import "../../styles/content_css/papersubmission.css";
 import PageBanner from "../common/pageBanner";
 import Table from "react-bootstrap/Table";
+import qr_code from "../../assets/Images/qr_code.jpeg";
 
 const PaperSubmission = () => {
   return (
     <>
       <PageBanner pageTitle="Paper Submission" />
-      <div className="papersubmission_main">
+      <div className="paper-submission-qr">
+        <p>Scan the QR code to download the template</p>
+        <img src={qr_code} alt="QR Code" />
+        <p>
+          <span>Note:</span>Do not temper the prescribed style and formatting.
+          Working language is recommended as (US or UK) English
+        </p>
+      </div>
+      {/* <div className="papersubmission_main">
         <h3 className="head_author"> Author's Guidelines</h3>
         <p className="para_author">
           {" "}
@@ -33,7 +42,7 @@ const PaperSubmission = () => {
           </a>
         </h3>
       </div>
-      <FeeandOnlineReg />
+      <FeeandOnlineReg /> */}
     </>
   );
 };

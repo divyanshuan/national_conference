@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/content_css/callforpaper.css";
 import PageBanner from "../common/pageBanner";
+import PaperSubmission from "./papersubmission";
+
 import {
   Modal,
   Button,
@@ -149,7 +151,7 @@ const CallForPapers = () => {
                       setModalData(topicdetail);
                     }}
                   >
-                    {topicdetail.topic}
+                    {topicdetail.topic} <span className="click_here">👈</span>
                   </Button>
                 </div>
               </>
@@ -175,6 +177,7 @@ const CallForPapers = () => {
           <></>
         )}
       </div>
+      <PaperSubmission />
     </>
   );
 };
