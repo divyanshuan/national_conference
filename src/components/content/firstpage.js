@@ -18,6 +18,13 @@ import img14 from "../../assets/Images/cuh_14.jpg";
 import img15 from "../../assets/Images/cuh_15.jpg";
 import img16 from "../../assets/Images/cuh_16.jpeg";
 import img17 from "../../assets/Images/cuh_17.jpg";
+import img18 from "../../assets/Images/cuh_18.jpg";
+import img19 from "../../assets/Images/cuh_19.jpg";
+import img20 from "../../assets/Images/cuh_20.jpg";
+import img21 from "../../assets/Images/cuh_21.jpg";
+import img22 from "../../assets/Images/cuh_22.jpg";
+import img23 from "../../assets/Images/cuh_23.jpg";
+import img24 from "../../assets/Images/cuh_24.jpg";
 import cuh_vid from "../../assets/video/cuh_logo_vid.mp4";
 
 const Firstpage = () => {
@@ -63,23 +70,30 @@ const Firstpage = () => {
           <h1>Glimpses of Central University of Haryana (CUH)</h1>
           <div class="cuh_imgs">
             <marquee scrollamount={7}>
-              <img src={img1} alt="" />
-              <img src={img2} alt="" />
-              <img src={img3} alt="" />
-              <img src={img4} alt="" />
-              <img src={img5} alt="" />
-              <img src={img6} alt="" />
-              <img src={img7} alt="" />
-              <img src={img8} alt="" />
-              <img src={img9} alt="" />
-              <img src={img10} alt="" />
-              <img src={img11} alt="" />
-              <img src={img12} alt="" />
-              <img src={img13} alt="" />
-              <img src={img14} alt="" />
-              <img src={img15} alt="" />
-              <img src={img16} alt="" />
-              <img src={img17} alt="" />
+              <img src={img1} alt="cuh glimpse" />
+              <img src={img2} alt="cuh glimpse" />
+              <img src={img3} alt="cuh glimpse" />
+              <img src={img4} alt="cuh glimpse" />
+              <img src={img5} alt="cuh glimpse" />
+              <img src={img6} alt="cuh glimpse" />
+              <img src={img7} alt="cuh glimpse" />
+              <img src={img8} alt="cuh glimpse" />
+              <img src={img9} alt="cuh glimpse" />
+              <img src={img10} alt="cuh glimplse" />
+              <img src={img11} alt="cuh glimplse" />
+              <img src={img12} alt="cuh glimplse" />
+              <img src={img13} alt="cuh glimplse" />
+              <img src={img14} alt="cuh glimplse" />
+              <img src={img15} alt="cuh glimplse" />
+              <img src={img16} alt="cuh glimplse" />
+              <img src={img17} alt="cuh glimplse" />
+              <img src={img18} alt="cuh glimplse" />
+              <img src={img19} alt="cuh glimplse" />
+              <img src={img20} alt="cuh glimplse" />
+              <img src={img21} alt="cuh glimplse" />
+              <img src={img22} alt="cuh glimplse" />
+              <img src={img23} alt="cuh glimplse" />
+              <img src={img24} alt="cuh glimplse" />
             </marquee>
           </div>
         </div>
