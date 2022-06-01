@@ -130,11 +130,12 @@ const CallForPapers = () => {
                 <div className="cfp_cardsa">
                   <div className="cfp_cards">
                     <div class="item uncover">
-                      <img
+                      {/* <img
                         className="cfp_img"
                         src={topicdetail.imgUrl}
                         alt="call for paper"
-                      />
+                      /> */}
+                      <span>{topicdetail.topic}</span>
                       <div class="overlay">
                         {/* <span>''</span> */}
                         <span>{topicdetail.topic}</span>

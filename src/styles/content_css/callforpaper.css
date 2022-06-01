@@ -55,7 +55,8 @@ p strong {
   display: inline-block;
   margin: 1% 2% 1% 0%;
   overflow: hidden;
-  box-shadow: 2px 3px 10px #444444;
+  box-shadow: 2px 3px 10px #4444448a;
+  text-align: center;
 }
 
 .item .overlay {
@@ -72,7 +73,11 @@ p strong {
   top: 0;
   bottom: 0;
 }
-
+.item span{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+}
 .uncover .overlay span:nth-child(1) {
   position: absolute;
   left: 50%;
