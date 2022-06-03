@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: flex-start;
   height: 50vh;
-  width: 300px;
+  width: 500px;
   /* border: 1px solid red; */
 }
 .committee-container .member_img {
@@ -33,6 +33,7 @@
 .committee-container .member_role {
   margin: 0px;
   text-align: center;
+  width: 100%;
 }
 .underline {
   width: 130px;
