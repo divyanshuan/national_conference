@@ -125,18 +125,18 @@ const CallForPapers = () => {
           </p>
         </div>
         {data
-          ? data.map((topicdetail) => (
+          ? data.map((topicdetail, idx) => (
               <>
-                <div className="cfp_cardsa">
+                <div key={idx} className="cfp_cardsa">
                   <div className="cfp_cards">
-                    <div class="item uncover">
+                    <div className="item uncover">
                       {/* <img
                         className="cfp_img"
                         src={topicdetail.imgUrl}
                         alt="call for paper"
                       /> */}
                       <span>{topicdetail.topic}</span>
-                      <div class="overlay">
+                      <div className="overlay">
                         {/* <span>''</span> */}
                         <span>{topicdetail.topic}</span>
                         <span></span>

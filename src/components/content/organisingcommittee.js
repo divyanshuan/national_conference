@@ -24,8 +24,10 @@ const Orginisingcommittee = () => {
               <p className="member_role">Patron</p>
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -44,8 +46,10 @@ const Orginisingcommittee = () => {
               <p className="member_role">Honorary Chair</p>
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -65,8 +69,10 @@ const Orginisingcommittee = () => {
               <div className="underline"></div>
               {/* <div className="member_role">{person.role}</div> */}
               <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -86,8 +92,10 @@ const Orginisingcommittee = () => {
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
               <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -106,8 +114,10 @@ const Orginisingcommittee = () => {
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
               <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -126,8 +136,10 @@ const Orginisingcommittee = () => {
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
               <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
@@ -146,14 +158,31 @@ const Orginisingcommittee = () => {
               <div className="underline"></div>
               <div className="member_role">{person.role}</div>
               <div className="member_role">{person.department}</div>
-              <div className="member_role">{person.collage}</div>
-              <div className="member_role">{person.location}</div>
+              <div className="member_role">
+                {person.collage}, {person.location}
+              </div>
+              {/* <div className="member_role">{person.location}</div> */}
             </div>
           </>
         ))}
       </div>
       <div className="member-namelist">
-        <div className="half-section1">
+        <div className="half-section2">
+          <div className="committee-main-containerz">
+            <h2>International Advisory Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.Internationaladvisorycommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},<span> {person.collage}</span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
           <div className="committee-main-containerz">
             <h2>Technical program committee chair</h2>
             <hr className="horizontal-line"></hr>
@@ -177,13 +206,39 @@ const Orginisingcommittee = () => {
                 <ul>
                   <li>
                     <div className="member_role">
-                      {person.name},<span> {person.collage}</span>
+                      {person.name},
+                      <span>
+                        {" "}
+                        {person.collage}, {person.location}
+                      </span>
                     </div>
                   </li>
                 </ul>
               </>
             ))}
           </div>
+        </div>
+        <div className="half-section1">
+          <div className="committee-main-containerz">
+            <h2>National Advisory Committee</h2>
+            <hr className="horizontal-line"></hr>
+            {data.NationalAdvisoryCommittee.map((person) => (
+              <>
+                <ul>
+                  <li>
+                    <div className="member_role">
+                      {person.name},
+                      <span>
+                        {" "}
+                        {person.collage}, {person.location}
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </>
+            ))}
+          </div>
+
           <div className="committee-main-containerz">
             <h2>Local Organization Committee</h2>
             <hr className="horizontal-line"></hr>
@@ -199,40 +254,8 @@ const Orginisingcommittee = () => {
               </>
             ))}
           </div>
-        </div>
-        <div className="half-section2">
           <div className="committee-main-containerz">
-            <h2>International Advisory Committee</h2>
-            <hr className="horizontal-line"></hr>
-            {data.Internationaladvisorycommittee.map((person) => (
-              <>
-                <ul>
-                  <li>
-                    <div className="member_role">
-                      {person.name},<span> {person.collage}</span>
-                    </div>
-                  </li>
-                </ul>
-              </>
-            ))}
-          </div>
-          <div className="committee-main-containerz">
-            <h2>National Advisory Committee</h2>
-            <hr className="horizontal-line"></hr>
-            {data.NationalAdvisoryCommittee.map((person) => (
-              <>
-                <ul>
-                  <li>
-                    <div className="member_role">
-                      {person.name},<span> {person.collage}</span>
-                    </div>
-                  </li>
-                </ul>
-              </>
-            ))}
-          </div>
-          <div className="committee-main-containerz">
-            <h2>Publicity And Public Rrelations</h2>
+            <h2>Finance and Publication Chairs</h2>
             <hr className="horizontal-line"></hr>
             {data.Publicityandpublicrelationschair.map((person) => (
               <>

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/content_css/firstpage.css";
-import cuhlogo from "../../assets/cuh-logo.png";
+// import cuhlogo from "../../assets/cuh-logo.png";
 import img1 from "../../assets/Images/cuh_1.jpeg";
 import img2 from "../../assets/Images/cuh_2.jpeg";
 import img3 from "../../assets/Images/cuh_3.jpeg";
@@ -34,7 +34,7 @@ const Firstpage = () => {
         <div className="firstpage_container">
           <div className="spons1">
             {" "}
-            <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "}
+            {/* <img className="logo-img" src={cuhlogo} alt="cuh-logo" />{" "} */}
           </div>
           <div className="paragra">
             <h1 className="firstpage_heading">SSTEPS - 2022</h1>
